@@ -3,43 +3,83 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Rojaco — Store listings for retail medical shops</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Rojaco — Store stock listings for medical retailers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="brand">Rojaco</h1>
-      <p class="tag">Simple, printable store stock listings for retail medical shops</p>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand-row">
+        <img src="/photo_6215346783383130910_y.jpg" alt="Rojaco" class="brand-logo">
+        <div>
+          <h1 class="brand">Rojaco</h1>
+          <div class="brand-sub">Retail medical store stock listings — government friendly, printable</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#stores" class="nav-link">Stores</a>
+        <a href="#how" class="nav-link">How it works</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section class="intro card">
-      <h2>Sample store listings</h2>
-      <p>This is a minimal static sample site you can host on GitHub Pages. Each store gets its own URL. Click a store below to view its stock listing in the government-friendly format.</p>
-      <ul class="store-list">
-        <li>
-          <a class="store-link" href="/stores/radhey-medicals/">Radhey Medicals</a>
-          <div class="muted">Last updated: 2026‑10‑08</div>
-        </li>
-      </ul>
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Make your store stock visible, verifiable and printable</h2>
+          <p class="lead">Rojaco helps retail medical shops publish weekly stock listings in the format required by authorities. No backend — edit a data file and push to GitHub.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#stores">View sample store</a>
+            <a class="btn ghost" href="#how">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="/photo_6215346783383130911_y.jpg" alt="sample" loading="lazy">
+        </div>
+      </div>
     </section>
 
-    <section class="about card">
-      <h3>How to use</h3>
+    <section id="stores" class="container card-section">
+      <div class="section-header">
+        <h3>Stores</h3>
+        <div class="search-wrap">
+          <input id="search" class="search" placeholder="Search stores or items…" aria-label="Search stores">
+        </div>
+      </div>
+
+      <div id="store-grid" class="store-grid">
+        <!-- store cards injected by JS -->
+      </div>
+
+      <p class="muted small">This is an MVP sample — store pages are static HTML and generated from JSON data. Each store gets a URL you can share or point a custom domain at.</p>
+    </section>
+
+    <section id="how" class="container card">
+      <h3>How the MVP works</h3>
       <ol>
-        <li>Edit the file /stores/<span class="mono">&lt;slug&gt;/index.html</span> or replace it with a generated page from your data.</li>
-        <li>Push the repository to GitHub and enable GitHub Pages (branch: main, folder: / (root) or <code>/docs</code>).</li>
-        <li>Each store page is a plain HTML file and is printable. Add a CNAME or DNS record later if a store wants its own domain.</li>
+        <li>Store data lives in <code>data/stores.json</code>. To update stock: edit the store's <code>items</code> list and push to GitHub.</li>
+        <li>Each store has a static page at <code>/stores/&lt;slug&gt;/</code> ready to print for authorities.</li>
+        <li>No server required — host on GitHub Pages.</li>
       </ol>
     </section>
+
+    <section id="contact" class="container card">
+      <h3>Contact / Next steps</h3>
+      <p class="muted">Want an admin panel, CSV import, weekly sync with Google Sheets, or multi-language support? I can add those next.</p>
+    </section>
+
   </main>
 
   <footer class="site-footer">
-    <div class="container">© Rojaco — sample site • Generated as a minimal static example</div>
+    <div class="container footer-inner">
+      <div>© Rojaco — sample MVP</div>
+      <div class="muted">Designed for clarity and printability • Last sample update: 2026-10-08</div>
+    </div>
   </footer>
 
+  <script src="/main.js" defer></script>
 </body>
 </html>

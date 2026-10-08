@@ -1,0 +1,50 @@
+{
+  "stores": [
+    {
+      "slug": "radhey-medicals",
+      "name": "Radhey Medicals",
+      "address": "123 Main Road, Example City, State",
+      "license": "XYZ123",
+      "last_updated": "2026-10-08",
+      "contact": "+91 98765 43210",
+      "items": [
+        {
+          "name": "Paracetamol",
+          "brand": "ACME Pharma",
+          "form": "Tablet",
+          "strength": "500 mg",
+          "batch": "B321",
+          "mfg": "2025-04",
+          "expiry": "2027-04",
+          "quantity": 120,
+          "mrp": "₹60",
+          "remarks": "OTC"
+        },
+        {
+          "name": "Amoxicillin",
+          "brand": "Sunrise Labs",
+          "form": "Capsule",
+          "strength": "250 mg",
+          "batch": "A112",
+          "mfg": "2024-12",
+          "expiry": "2026-12",
+          "quantity": 60,
+          "mrp": "₹120",
+          "remarks": "Prescription"
+        },
+        {
+          "name": "Cough Syrup",
+          "brand": "HerbalCo",
+          "form": "Syrup",
+          "strength": "100 ml",
+          "batch": "C778",
+          "mfg": "2026-03",
+          "expiry": "2028-03",
+          "quantity": 30,
+          "mrp": "₹90",
+          "remarks": "OTC"
+        }
+      ]
+    }
+  ]
+}
