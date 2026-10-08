@@ -1,6 +1,6 @@
 async function loadStores(){
   try{
-    const res = await fetch('/data/stores.json');
+    const res = await fetch('data/stores.json');
     const json = await res.json();
     const stores = json.stores || [];
     const grid = document.getElementById('store-grid');
