@@ -13,7 +13,7 @@ async function loadStores(){
           </div>
           <div class="meta">
             <div class="muted">Updated: ${s.last_updated}</div>
-            <a class="view-btn" href="/stores/${s.slug}/">View</a>
+            <a class="view-btn" href="stores/${s.slug}/">View</a>
           </div>
         </div>
         <div class="card-body">
@@ -35,7 +35,7 @@ async function loadStores(){
             </div>
             <div class="meta">
               <div class="muted">Updated: ${s.last_updated}</div>
-              <a class="view-btn" href="/stores/${s.slug}/">View</a>
+              <a class="view-btn" href="stores/${s.slug}/">View</a>
             </div>
           </div>
           <div class="card-body">
