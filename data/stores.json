@@ -3,51 +3,5405 @@
     {
       "slug": "radhey-medicals",
       "name": "Radhey Medicals",
-      "address": "123 Main Road, Example City, State",
-      "premises": "123 Main Road, Example City, State — 226001",
+      "address": "B-2 First Floor, Surya Medicine Market, Latouche Road, Lucknow",
+      "premises": "B-2 First Floor, Surya Medicine Market, Latouche Road, Lucknow, Uttar Pradesh",
       "license": "XYZ123",
+      "gstin": "09ADVPA7406Q1ZT",
       "pharmacist": {
         "name": "Example Pharmacist",
         "registration": "UPSPC/00000"
       },
-      "last_updated": "2026-10-08",
-      "contact": "+91 98765 43210",
+      "contact": "0522-4230735",
+      "phones": [
+        "0522-4230735",
+        "9161740152",
+        "8299205321"
+      ],
+      "email": "jatin.agarwal15@gmail.com",
+      "last_updated": "2026-10-07",
       "items": [
         {
-          "name": "Paracetamol",
-          "brand": "ACME Pharma",
-          "form": "Tablet",
-          "strength": "500 mg",
-          "batch": "B321",
-          "mfg": "2025-04",
-          "expiry": "2027-04",
-          "quantity": 120,
-          "mrp": "₹60",
-          "remarks": "OTC"
+          "name": "ABHAYTOX T.T",
+          "company": "Extra Disc",
+          "pack": "120",
+          "quantity": 35,
+          "unit": "PCS"
         },
         {
-          "name": "Amoxicillin",
-          "brand": "Sunrise Labs",
-          "form": "Capsule",
-          "strength": "250 mg",
-          "batch": "A112",
-          "mfg": "2024-12",
-          "expiry": "2026-12",
-          "quantity": 60,
-          "mrp": "₹120",
-          "remarks": "Prescription"
+          "name": "URSOCOL 300",
+          "company": "Extra Disc",
+          "pack": "10TAB",
+          "quantity": 29,
+          "unit": ""
         },
         {
-          "name": "Cough Syrup",
-          "brand": "HerbalCo",
-          "form": "Syrup",
-          "strength": "100 ml",
-          "batch": "C778",
-          "mfg": "2026-03",
-          "expiry": "2028-03",
+          "name": "DUPHALAC 150*",
+          "company": "Abbott",
+          "pack": "50PC",
+          "quantity": 168,
+          "unit": ""
+        },
+        {
+          "name": "LUPI HCG 5000INJ",
+          "company": "Abbott",
+          "pack": "1*1",
+          "quantity": 244,
+          "unit": "PCS"
+        },
+        {
+          "name": "STEMETIL MD TAB",
+          "company": "Abbott",
+          "pack": "40*10",
+          "quantity": 575,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 100*",
+          "company": "Abbott",
+          "pack": "1PC",
+          "quantity": 59,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 150** (MRP)",
+          "company": "Abbott",
+          "pack": "1PC",
           "quantity": 30,
-          "mrp": "₹90",
-          "remarks": "OTC"
+          "unit": ""
+        },
+        {
+          "name": "THYOnorm 25*",
+          "company": "Abbott",
+          "pack": "1PC",
+          "quantity": 132,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 37.5",
+          "company": "Abbott",
+          "pack": "10*10",
+          "quantity": 39,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 50**",
+          "company": "Abbott",
+          "pack": "1PC",
+          "quantity": 20,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 62.5**",
+          "company": "Abbott",
+          "pack": "12**1",
+          "quantity": 15,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 75**",
+          "company": "Abbott",
+          "pack": "1PC",
+          "quantity": 50,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 88**",
+          "company": "Abbott",
+          "pack": "10*10",
+          "quantity": 11,
+          "unit": ""
+        },
+        {
+          "name": "TIXILEX SYP 60ML",
+          "company": "Abbott",
+          "pack": "1X60",
+          "quantity": 570,
+          "unit": ""
+        },
+        {
+          "name": "AGLOZYME JUNIOR SYP",
+          "company": "Aglowmed Ltd (Bnc Cap)",
+          "pack": "100*60ML",
+          "quantity": 478,
+          "unit": "PCS"
+        },
+        {
+          "name": "AGLOZYME SYP",
+          "company": "Aglowmed Ltd (Bnc Cap)",
+          "pack": "48*200ML",
+          "quantity": 141,
+          "unit": "PCS"
+        },
+        {
+          "name": "CHYMOFLAM AP TAB",
+          "company": "Aglowmed Ltd (Bnc Cap)",
+          "pack": "1*10",
+          "quantity": 46,
+          "unit": "PCS"
+        },
+        {
+          "name": "INSTARYL P SYP",
+          "company": "Aglowmed Ltd (Bnc Cap)",
+          "pack": "1*100ML",
+          "quantity": 2,
+          "unit": "PCS"
+        },
+        {
+          "name": "PAN 40",
+          "company": "Alkem (Pan)",
+          "pack": "20*10",
+          "quantity": 4928,
+          "unit": ""
+        },
+        {
+          "name": "PAN D",
+          "company": "Alkem (Pan)",
+          "pack": "10*10",
+          "quantity": 4212,
+          "unit": ""
+        },
+        {
+          "name": "PAN MPS-O SUSP",
+          "company": "Alkem (Pan)",
+          "pack": "200ML",
+          "quantity": 7,
+          "unit": "PCS"
+        },
+        {
+          "name": "PAN RFT ORAL SYP (MRP)",
+          "company": "Alkem (Pan)",
+          "pack": "200ML",
+          "quantity": 351,
+          "unit": "PCS"
+        },
+        {
+          "name": "A TO Z GOLD CAP",
+          "company": "Alkem Active Life (A-Z)",
+          "pack": "2*10",
+          "quantity": 15,
+          "unit": "PCS"
+        },
+        {
+          "name": "A TO Z SYP 200ML",
+          "company": "Alkem Active Life (A-Z)",
+          "pack": "1*40*200 ML",
+          "quantity": 46,
+          "unit": "PCS"
+        },
+        {
+          "name": "CLAVAM BID SYP",
+          "company": "Alkem Laboratories (Clavam)",
+          "pack": "1*30ML",
+          "quantity": 546,
+          "unit": "PCS"
+        },
+        {
+          "name": "CLAVAM SYP",
+          "company": "Alkem Laboratories (Clavam)",
+          "pack": "1*30ML",
+          "quantity": 249,
+          "unit": "PCS"
+        },
+        {
+          "name": "RHAMO G SACHETS",
+          "company": "Alkem Laboratories (Clavam)",
+          "pack": "1*1GM",
+          "quantity": 1626,
+          "unit": "PCS"
+        },
+        {
+          "name": "SUMO L 120 SYP 60ML",
+          "company": "Alkem Labs (Taxim O Sumo L)",
+          "pack": "15*120",
+          "quantity": 879,
+          "unit": "PCS"
+        },
+        {
+          "name": "SUMO L DROP 15ML",
+          "company": "Alkem Labs (Taxim O Sumo L)",
+          "pack": "25*200",
+          "quantity": 1249,
+          "unit": "PCS"
+        },
+        {
+          "name": "TAXIM O 200",
+          "company": "Alkem Labs (Taxim O Sumo L)",
+          "pack": "10*10",
+          "quantity": 385,
+          "unit": ""
+        },
+        {
+          "name": "TAXIM O 50DT TAB",
+          "company": "Alkem Labs (Taxim O Sumo L)",
+          "pack": "10*10",
+          "quantity": 37,
+          "unit": "PCS"
+        },
+        {
+          "name": "TAXIM O DROP (MRP)",
+          "company": "Alkem Labs (Taxim O Sumo L)",
+          "pack": "25*100",
+          "quantity": 540,
+          "unit": "PCS"
+        },
+        {
+          "name": "TAXIM O SYP 30ML",
+          "company": "Alkem Labs (Taxim O Sumo L)",
+          "pack": "25*200",
+          "quantity": 1614,
+          "unit": ""
+        },
+        {
+          "name": "OMNICEF O 200",
+          "company": "Aristo (Meganeuron)",
+          "pack": "10*10",
+          "quantity": 805,
+          "unit": "PCS"
+        },
+        {
+          "name": "SMUTH SYP",
+          "company": "Aristo (Meganeuron)",
+          "pack": "1*200ML",
+          "quantity": 18,
+          "unit": "PCS"
+        },
+        {
+          "name": "TRIGLIMIPREX 1 (ARISTO)",
+          "company": "Aristo (Meganeuron)",
+          "pack": "15*10",
+          "quantity": 96,
+          "unit": "PCS"
+        },
+        {
+          "name": "ACECLO MR",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 141,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARISTOZYME CAP",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10X15",
+          "quantity": 210,
+          "unit": ""
+        },
+        {
+          "name": "ARISTOZYME SYP",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "1*100*200ML",
+          "quantity": 1572,
+          "unit": ""
+        },
+        {
+          "name": "DAROLAC SACHET (BOX)",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "1box*10sachet",
+          "quantity": 6,
+          "unit": "PCS"
+        },
+        {
+          "name": "FLEXON 650 TAB",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "12*10",
+          "quantity": 101,
+          "unit": "PCS"
+        },
+        {
+          "name": "FLEXON MR",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 865,
+          "unit": ""
+        },
+        {
+          "name": "FLEXON TAB",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "60X10",
+          "quantity": 1329,
+          "unit": ""
+        },
+        {
+          "name": "GRANDEM SYP",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "1*100*10ML",
+          "quantity": 817,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEGAPEN KID TAB",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 554,
+          "unit": "PCS"
+        },
+        {
+          "name": "MONOCEF 1GM",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "25-1GM",
+          "quantity": 726,
+          "unit": ""
+        },
+        {
+          "name": "MONOCEF O 200",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*15",
+          "quantity": 64,
+          "unit": "PCS"
+        },
+        {
+          "name": "MONOCEF O CV 200MG",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 43,
+          "unit": ""
+        },
+        {
+          "name": "MONTINA L TAB",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 301,
+          "unit": "PCS"
+        },
+        {
+          "name": "PANTOP D",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 115,
+          "unit": ""
+        },
+        {
+          "name": "PANTOP IT CAPS 10S",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "10*10",
+          "quantity": 28,
+          "unit": "PCS"
+        },
+        {
+          "name": "TOBACIN E/D (ARISTO)",
+          "company": "Aristo Pharmaceuticals Ltd",
+          "pack": "25*5ML",
+          "quantity": 14,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLOSTAT MR TAB",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "10*10",
+          "quantity": 84,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLOSTAT PC",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "20*10",
+          "quantity": 63,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLOSTAT SP TAB",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "20*10",
+          "quantity": 37,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAGESIC DS SYP 100ML",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "100ML",
+          "quantity": 27,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAGESIC DS SYP 60ML",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "120*60ML",
+          "quantity": 229,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAGESIC P SYP 100ML",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "100ML",
+          "quantity": 58,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAGESIC P SYP 60ML",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "1*60ML",
+          "quantity": 351,
+          "unit": "PCS"
+        },
+        {
+          "name": "PPPI L CAP",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "10*10",
+          "quantity": 96,
+          "unit": "PCS"
+        },
+        {
+          "name": "PRD CAP",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "10*10",
+          "quantity": 166,
+          "unit": "PCS"
+        },
+        {
+          "name": "RPPI L CAP",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "10*10",
+          "quantity": 40,
+          "unit": "PCS"
+        },
+        {
+          "name": "RRD CAP",
+          "company": "Blue Cross (Meftagesic) Laboratories",
+          "pack": "10*10",
+          "quantity": 85,
+          "unit": "PCS"
+        },
+        {
+          "name": "DICLOTAL MR*",
+          "company": "Blue Cross (Meftal)",
+          "pack": "10*10",
+          "quantity": 81,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAL SPAS DROP*",
+          "company": "Blue Cross (Meftal)",
+          "pack": "1*10ML",
+          "quantity": -5,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAL SPAS TAB **",
+          "company": "Blue Cross (Meftal)",
+          "pack": "30*10",
+          "quantity": -67,
+          "unit": "PCS"
+        },
+        {
+          "name": "ACILAC 150 (OLD)",
+          "company": "Cadila Pharmacuticals",
+          "pack": "30*30",
+          "quantity": 693,
+          "unit": ""
+        },
+        {
+          "name": "EMESET 2ML INJ*",
+          "company": "Cipla (Cutting)",
+          "pack": "",
+          "quantity": 3761,
+          "unit": "PCS"
+        },
+        {
+          "name": "NICOTEX 2",
+          "company": "Cipla (Cutting)",
+          "pack": "18*10",
+          "quantity": 164,
+          "unit": ""
+        },
+        {
+          "name": "NICOTEX 4",
+          "company": "Cipla (Cutting)",
+          "pack": "18*10",
+          "quantity": 508,
+          "unit": ""
+        },
+        {
+          "name": "BROZEDEX LS DROP",
+          "company": "Dr Reddy (Range)",
+          "pack": "",
+          "quantity": 19,
+          "unit": "PCS"
+        },
+        {
+          "name": "BROZEDEX SF 100ML",
+          "company": "Dr Reddy (Range)",
+          "pack": "1X100",
+          "quantity": 406,
+          "unit": ""
+        },
+        {
+          "name": "BROZEDEX SYP (MRP)",
+          "company": "Dr Reddy (Range)",
+          "pack": "1X100",
+          "quantity": 111,
+          "unit": ""
+        },
+        {
+          "name": "ZEDEX P SYP",
+          "company": "Dr Reddy (Range)",
+          "pack": "1X60",
+          "quantity": 230,
+          "unit": ""
+        },
+        {
+          "name": "ZEDEX SYP 100ML",
+          "company": "Dr Reddy (Range)",
+          "pack": "1X100",
+          "quantity": 2981,
+          "unit": ""
+        },
+        {
+          "name": "ZEDEX-SF",
+          "company": "Dr Reddy (Range)",
+          "pack": "1X100",
+          "quantity": 568,
+          "unit": ""
+        },
+        {
+          "name": "KETOROL DT",
+          "company": "Dr Reddys",
+          "pack": "15*10",
+          "quantity": 464,
+          "unit": ""
+        },
+        {
+          "name": "NISE TAB",
+          "company": "Dr Reddys",
+          "pack": "20X15",
+          "quantity": 396,
+          "unit": ""
+        },
+        {
+          "name": "OMEZ 20",
+          "company": "Dr Reddys",
+          "pack": "20*20",
+          "quantity": 225,
+          "unit": ""
+        },
+        {
+          "name": "OMEZ D",
+          "company": "Dr Reddys",
+          "pack": "15*15",
+          "quantity": 394,
+          "unit": ""
+        },
+        {
+          "name": "REDOTIL 100",
+          "company": "Dr Reddys",
+          "pack": "10*10",
+          "quantity": 328,
+          "unit": "PCS"
+        },
+        {
+          "name": "RESWAS SYP",
+          "company": "Dr Reddys",
+          "pack": "120ML",
+          "quantity": 85,
+          "unit": "PCS"
+        },
+        {
+          "name": "VANTEJ \"50\" GM",
+          "company": "Dr Reddys",
+          "pack": "1*50GM",
+          "quantity": 153,
+          "unit": "PCS"
+        },
+        {
+          "name": "VANTEJ 100GM",
+          "company": "Dr Reddys",
+          "pack": "72*100G",
+          "quantity": 219,
+          "unit": ""
+        },
+        {
+          "name": "GLIMISAVE M1 FORTE",
+          "company": "Eris (Tendia)",
+          "pack": "10*10",
+          "quantity": 27,
+          "unit": ""
+        },
+        {
+          "name": "GLIMISAVE MV 2",
+          "company": "Eris (Tendia)",
+          "pack": "1X10",
+          "quantity": 2,
+          "unit": ""
+        },
+        {
+          "name": "TRIGLIMISAVE 1 (ERIS)",
+          "company": "Eris (Tendia)",
+          "pack": "10*10",
+          "quantity": 177,
+          "unit": ""
+        },
+        {
+          "name": "CCM TAB",
+          "company": "Glaxo",
+          "pack": "1 PC",
+          "quantity": 13,
+          "unit": "PCS"
+        },
+        {
+          "name": "CEFTUM 250MG",
+          "company": "Glaxo",
+          "pack": "5*10",
+          "quantity": 194,
+          "unit": "PCS"
+        },
+        {
+          "name": "ELTROXIN 100",
+          "company": "Glaxo",
+          "pack": "20*1",
+          "quantity": 4,
+          "unit": "PCS"
+        },
+        {
+          "name": "NEOSPORIN H EAR/D",
+          "company": "Glaxo",
+          "pack": "1PH",
+          "quantity": 111,
+          "unit": ""
+        },
+        {
+          "name": "NEOSPORIN SKIN OINT 30GM",
+          "company": "Glaxo",
+          "pack": "1X30GM",
+          "quantity": 367,
+          "unit": ""
+        },
+        {
+          "name": "ASCORIL + SYP 100ML",
+          "company": "Glenmark",
+          "pack": "1X100M",
+          "quantity": 158,
+          "unit": ""
+        },
+        {
+          "name": "ASCORIL LS DROP*",
+          "company": "Glenmark",
+          "pack": "1*1",
+          "quantity": 149,
+          "unit": "PCS"
+        },
+        {
+          "name": "ASCORIL LS SYP*",
+          "company": "Glenmark",
+          "pack": "100ML",
+          "quantity": 968,
+          "unit": "PCS"
+        },
+        {
+          "name": "CANDIBIOTIC E/D (MRP)",
+          "company": "Glenmark",
+          "pack": "1X5ML",
+          "quantity": 834,
+          "unit": ""
+        },
+        {
+          "name": "CANDID POWDER 60GM (MRP)",
+          "company": "Glenmark",
+          "pack": "120*60GM",
+          "quantity": 504,
+          "unit": ""
+        },
+        {
+          "name": "CANDID TV SHAMPOO**",
+          "company": "Glenmark",
+          "pack": "1*60ML",
+          "quantity": 34,
+          "unit": "PCS"
+        },
+        {
+          "name": "CANDID V GEL * (MRP)",
+          "company": "Glenmark",
+          "pack": "10PC",
+          "quantity": 368,
+          "unit": "PCS"
+        },
+        {
+          "name": "CANDID V.6 TAB",
+          "company": "Glenmark",
+          "pack": "1X6TAB",
+          "quantity": 533,
+          "unit": ""
+        },
+        {
+          "name": "EVECARE 400ML SYRUP",
+          "company": "Himalaya Drug Co",
+          "pack": "1s",
+          "quantity": 18,
+          "unit": "PCS"
+        },
+        {
+          "name": "EVECARE FORTE TAB",
+          "company": "Himalaya Drug Co",
+          "pack": "3*10",
+          "quantity": 48,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAG MAG 75GM",
+          "company": "Hind Chemicals",
+          "pack": "12PC",
+          "quantity": 228,
+          "unit": ""
+        },
+        {
+          "name": "MAGMAG 75GM",
+          "company": "Hind Chemicals",
+          "pack": "12*20",
+          "quantity": 10,
+          "unit": ""
+        },
+        {
+          "name": "VALPROL SYP 200ML.",
+          "company": "Intas (Hold)",
+          "pack": "1",
+          "quantity": 6,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZORYL MP 1 (MRP)",
+          "company": "Intas (Hold)",
+          "pack": "10*10",
+          "quantity": 217,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL MP 2",
+          "company": "Intas (Hold)",
+          "pack": "10*10",
+          "quantity": 77,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL MP1 FORTE",
+          "company": "Intas (Hold)",
+          "pack": "10*10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL MV1",
+          "company": "Intas (Hold)",
+          "pack": "10*10",
+          "quantity": 292,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZORYL MV2",
+          "company": "Intas (Hold)",
+          "pack": "10*10",
+          "quantity": 141,
+          "unit": "PCS"
+        },
+        {
+          "name": "AMTAS M 25",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 22,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARVAST 20",
+          "company": "Intas (Regular)",
+          "pack": "1*10",
+          "quantity": 11,
+          "unit": ""
+        },
+        {
+          "name": "ARVAST F 10",
+          "company": "Intas (Regular)",
+          "pack": "1*10",
+          "quantity": 22,
+          "unit": ""
+        },
+        {
+          "name": "CARCA 3.125 (MRP) (intas)",
+          "company": "Intas (Regular)",
+          "pack": "10TAB",
+          "quantity": 99,
+          "unit": ""
+        },
+        {
+          "name": "CARCA 6.25 (INTAS)",
+          "company": "Intas (Regular)",
+          "pack": "10TAB",
+          "quantity": 45,
+          "unit": ""
+        },
+        {
+          "name": "DAPARYL L",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 4,
+          "unit": "PCS"
+        },
+        {
+          "name": "EMBETA AM 25 TAB",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 32,
+          "unit": "PCS"
+        },
+        {
+          "name": "EMBETA R 2.5",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 31,
+          "unit": "PCS"
+        },
+        {
+          "name": "EMBETA R 5",
+          "company": "Intas (Regular)",
+          "pack": "10",
+          "quantity": 115,
+          "unit": "PCS"
+        },
+        {
+          "name": "EMBETA XR 100",
+          "company": "Intas (Regular)",
+          "pack": "10STR",
+          "quantity": 141,
+          "unit": ""
+        },
+        {
+          "name": "EMBETA XR 25 (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10X15",
+          "quantity": 374,
+          "unit": ""
+        },
+        {
+          "name": "EMBETA XR 50 (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10STRP",
+          "quantity": 521,
+          "unit": ""
+        },
+        {
+          "name": "GABAPIN NT",
+          "company": "Intas (Regular)",
+          "pack": "20*15",
+          "quantity": 6,
+          "unit": ""
+        },
+        {
+          "name": "LEVERA 1000",
+          "company": "Intas (Regular)",
+          "pack": "1*10",
+          "quantity": 37,
+          "unit": ""
+        },
+        {
+          "name": "LEVERA 100ML",
+          "company": "Intas (Regular)",
+          "pack": "100ML",
+          "quantity": 75,
+          "unit": ""
+        },
+        {
+          "name": "LEVERA 250",
+          "company": "Intas (Regular)",
+          "pack": "10X10",
+          "quantity": 63,
+          "unit": ""
+        },
+        {
+          "name": "LEVERA 500 (INTAS)",
+          "company": "Intas (Regular)",
+          "pack": "20X10",
+          "quantity": 587,
+          "unit": ""
+        },
+        {
+          "name": "LEVERA SYP 200ML",
+          "company": "Intas (Regular)",
+          "pack": "200ML",
+          "quantity": 63,
+          "unit": "PCS"
+        },
+        {
+          "name": "MONIT GTN 2.6",
+          "company": "Intas (Regular)",
+          "pack": "1*18",
+          "quantity": 348,
+          "unit": ""
+        },
+        {
+          "name": "MONIT GTN 6.4",
+          "company": "Intas (Regular)",
+          "pack": "1*18",
+          "quantity": 23,
+          "unit": "PCS"
+        },
+        {
+          "name": "MONIT-SR-30",
+          "company": "Intas (Regular)",
+          "pack": "12*10STR",
+          "quantity": 3,
+          "unit": ""
+        },
+        {
+          "name": "NAPRA D 250",
+          "company": "Intas (Regular)",
+          "pack": "15*15",
+          "quantity": 268,
+          "unit": ""
+        },
+        {
+          "name": "NAPRA D 500",
+          "company": "Intas (Regular)",
+          "pack": "15*10",
+          "quantity": 70,
+          "unit": ""
+        },
+        {
+          "name": "OLMARK CT 40MG",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 23,
+          "unit": "PCS"
+        },
+        {
+          "name": "SARTEL 20",
+          "company": "Intas (Regular)",
+          "pack": "10 STR",
+          "quantity": 103,
+          "unit": ""
+        },
+        {
+          "name": "SARTEL 40",
+          "company": "Intas (Regular)",
+          "pack": "10 STR",
+          "quantity": 85,
+          "unit": ""
+        },
+        {
+          "name": "SARTEL C 40",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 47,
+          "unit": "PCS"
+        },
+        {
+          "name": "SITARA 100",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 118,
+          "unit": "PCS"
+        },
+        {
+          "name": "SITARA D 100/10",
+          "company": "Intas (Regular)",
+          "pack": "",
+          "quantity": 74,
+          "unit": "PCS"
+        },
+        {
+          "name": "SITARA DM 1000",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 10,
+          "unit": "PCS"
+        },
+        {
+          "name": "SITARA M 50/500",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 47,
+          "unit": "PCS"
+        },
+        {
+          "name": "TAH 40",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 99,
+          "unit": "PCS"
+        },
+        {
+          "name": "TAH 80",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 41,
+          "unit": "PCS"
+        },
+        {
+          "name": "TENIVA 20",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "TENIVA M",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 31,
+          "unit": ""
+        },
+        {
+          "name": "VALPROL CR 300",
+          "company": "Intas (Regular)",
+          "pack": "10X10",
+          "quantity": 216,
+          "unit": ""
+        },
+        {
+          "name": "VALPROL CR 500",
+          "company": "Intas (Regular)",
+          "pack": "10X10",
+          "quantity": 116,
+          "unit": ""
+        },
+        {
+          "name": "VELTAM 4",
+          "company": "Intas (Regular)",
+          "pack": "1X15",
+          "quantity": 99,
+          "unit": ""
+        },
+        {
+          "name": "VELTAM PLUS",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 31,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZAVA 50",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 60,
+          "unit": ""
+        },
+        {
+          "name": "ZAVAMET 1000",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 18,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZAVAMET 500 (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 201,
+          "unit": ""
+        },
+        {
+          "name": "ZEN RETARD 400",
+          "company": "Intas (Regular)",
+          "pack": "15*10",
+          "quantity": 28,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL 1",
+          "company": "Intas (Regular)",
+          "pack": "20 STR",
+          "quantity": 273,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL 3",
+          "company": "Intas (Regular)",
+          "pack": "20 STR",
+          "quantity": 7,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL M1",
+          "company": "Intas (Regular)",
+          "pack": "10 STR",
+          "quantity": 262,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL M1 FORTE (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10str",
+          "quantity": 41,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL M2 (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10 STR",
+          "quantity": 466,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL M2 FORTE (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 89,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL M3 (MRP)",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 91,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZORYL M4",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 62,
+          "unit": ""
+        },
+        {
+          "name": "ZORYL MF 2",
+          "company": "Intas (Regular)",
+          "pack": "10*10",
+          "quantity": 102,
+          "unit": "PCS"
+        },
+        {
+          "name": "SOLVIN COLD AF DROP",
+          "company": "Ipca (Solvin Cold)",
+          "pack": "1X15ML",
+          "quantity": 65,
+          "unit": ""
+        },
+        {
+          "name": "SOLVIN COLD DROP",
+          "company": "Ipca (Solvin Cold)",
+          "pack": "20PC",
+          "quantity": -3,
+          "unit": ""
+        },
+        {
+          "name": "SOLVIN COLD SYP",
+          "company": "Ipca (Solvin Cold)",
+          "pack": "30PC 60ML;",
+          "quantity": 667,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL CR",
+          "company": "Ipca (Zerodol)",
+          "pack": "BOX",
+          "quantity": 33,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL P TAB",
+          "company": "Ipca (Zerodol)",
+          "pack": "90*10*10",
+          "quantity": 4131,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL SP",
+          "company": "Ipca (Zerodol)",
+          "pack": "10 STR",
+          "quantity": 817,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL SPAS",
+          "company": "Ipca (Zerodol)",
+          "pack": "10*10",
+          "quantity": 150,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL TAB",
+          "company": "Ipca (Zerodol)",
+          "pack": "10X10",
+          "quantity": 38,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL TC TAB",
+          "company": "Ipca (Zerodol)",
+          "pack": "10*10",
+          "quantity": 45,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZERODOL TH 4",
+          "company": "Ipca (Zerodol)",
+          "pack": "10*10",
+          "quantity": 75,
+          "unit": ""
+        },
+        {
+          "name": "ZERODOL TH4 MAX",
+          "company": "Ipca (Zerodol)",
+          "pack": "BOX",
+          "quantity": 37,
+          "unit": "PCS"
+        },
+        {
+          "name": "GIFT",
+          "company": "Ipca Laboratories Ltd",
+          "pack": "1X1",
+          "quantity": 10,
+          "unit": "PCS"
+        },
+        {
+          "name": "GIFT ZERODOL (5)",
+          "company": "Ipca Laboratories Ltd",
+          "pack": "1",
+          "quantity": -2,
+          "unit": "PCS"
+        },
+        {
+          "name": "BENZ PEARLS CAP",
+          "company": "Lupin",
+          "pack": "10*10",
+          "quantity": 166,
+          "unit": "PCS"
+        },
+        {
+          "name": "BUDAMATE 400 INHALER",
+          "company": "Lupin",
+          "pack": "",
+          "quantity": 14,
+          "unit": "PCS"
+        },
+        {
+          "name": "L CIN 250",
+          "company": "Lupin",
+          "pack": "10*10",
+          "quantity": 32,
+          "unit": "PCS"
+        },
+        {
+          "name": "L CIN 500",
+          "company": "Lupin",
+          "pack": "10*10",
+          "quantity": 1494,
+          "unit": ""
+        },
+        {
+          "name": "L CIN OZ SYP",
+          "company": "Lupin",
+          "pack": "1*60ML",
+          "quantity": 72,
+          "unit": "PCS"
+        },
+        {
+          "name": "AMLOVAS 5",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10X15",
+          "quantity": 490,
+          "unit": ""
+        },
+        {
+          "name": "GEMINOR M1",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10*10",
+          "quantity": 69,
+          "unit": ""
+        },
+        {
+          "name": "GEMINOR M2",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10*10",
+          "quantity": 33,
+          "unit": ""
+        },
+        {
+          "name": "MACPRED 4",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10*10",
+          "quantity": 210,
+          "unit": ""
+        },
+        {
+          "name": "MACPRED 8",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10*10",
+          "quantity": 106,
+          "unit": ""
+        },
+        {
+          "name": "MOXOVAS-0.2",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "1X10",
+          "quantity": 29,
+          "unit": ""
+        },
+        {
+          "name": "MOXOVAS-0.3",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10X10",
+          "quantity": 21,
+          "unit": ""
+        },
+        {
+          "name": "TENLIMAC TABLET",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "10*10",
+          "quantity": 3,
+          "unit": ""
+        },
+        {
+          "name": "VILDAMAC 50",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "4*15",
+          "quantity": 19,
+          "unit": ""
+        },
+        {
+          "name": "VILDAMAC M 50/500 (STRIPS)",
+          "company": "Macleods 1 (Amlovas 5)",
+          "pack": "4*15",
+          "quantity": 10,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY DX SYP",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "1X100",
+          "quantity": 435,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY XT SYP",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "100ML",
+          "quantity": 892,
+          "unit": ""
+        },
+        {
+          "name": "MACPOD 200",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "10X10",
+          "quantity": 144,
+          "unit": ""
+        },
+        {
+          "name": "MACTOTAL CAP (BOX)",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "1X10",
+          "quantity": 136,
+          "unit": ""
+        },
+        {
+          "name": "OFLOMAC M FORTE",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "200*30ML",
+          "quantity": 481,
+          "unit": ""
+        },
+        {
+          "name": "OFLOMAC M SYP",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "1X30",
+          "quantity": 517,
+          "unit": ""
+        },
+        {
+          "name": "RUBIRED SYP",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "200ML",
+          "quantity": 181,
+          "unit": ""
+        },
+        {
+          "name": "RUBIRED TAB",
+          "company": "Macleods 2 (Macpod)",
+          "pack": "10X10",
+          "quantity": 54,
+          "unit": ""
+        },
+        {
+          "name": "BIO D3 PLUS SYP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "MAC 20",
+          "quantity": 32,
+          "unit": ""
+        },
+        {
+          "name": "CEFOLAC O 200",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10X10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "ENTROFLORA CAP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1X10",
+          "quantity": 13,
+          "unit": ""
+        },
+        {
+          "name": "FEBUMAC 40",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10*10",
+          "quantity": 239,
+          "unit": ""
+        },
+        {
+          "name": "FLEXABENZ GEL",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1X30",
+          "quantity": 4,
+          "unit": ""
+        },
+        {
+          "name": "INSTA KIT",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1 KIT",
+          "quantity": 103,
+          "unit": ""
+        },
+        {
+          "name": "IT-MAC 200",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10*10",
+          "quantity": 165,
+          "unit": ""
+        },
+        {
+          "name": "IT-MAC-100",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10*10",
+          "quantity": 227,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY DROP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "15ML",
+          "quantity": 172,
+          "unit": "PCS"
+        },
+        {
+          "name": "MACBERY JUNIOR SYP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "60ML",
+          "quantity": 1308,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY LEVO SYP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "100ML",
+          "quantity": 9,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY LS SYP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "100ML",
+          "quantity": 1,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY PD SYP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "60ML",
+          "quantity": 107,
+          "unit": ""
+        },
+        {
+          "name": "MACBERY SYP",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1X100M",
+          "quantity": 1198,
+          "unit": ""
+        },
+        {
+          "name": "MACZONE 1GM",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "VIAL",
+          "quantity": 624,
+          "unit": ""
+        },
+        {
+          "name": "MEGALIS 10",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "15*10",
+          "quantity": 252,
+          "unit": ""
+        },
+        {
+          "name": "MEGALIS 20",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "15*10",
+          "quantity": 193,
+          "unit": ""
+        },
+        {
+          "name": "OMNACORTIL 10",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "50*10",
+          "quantity": 5421,
+          "unit": ""
+        },
+        {
+          "name": "OMNACORTIL 5",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "50*10",
+          "quantity": 5297,
+          "unit": ""
+        },
+        {
+          "name": "OMNACORTIL SUS",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "25*60ML",
+          "quantity": 282,
+          "unit": ""
+        },
+        {
+          "name": "PRIMACORT 100",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "20PC",
+          "quantity": 130,
+          "unit": ""
+        },
+        {
+          "name": "RABEMAC DSR",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10X10",
+          "quantity": 118,
+          "unit": ""
+        },
+        {
+          "name": "THYROX 100",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1X100",
+          "quantity": 104,
+          "unit": ""
+        },
+        {
+          "name": "THYROX 125",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1X10",
+          "quantity": 78,
+          "unit": ""
+        },
+        {
+          "name": "THYROX-12.5",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "1X100",
+          "quantity": 112,
+          "unit": ""
+        },
+        {
+          "name": "TRENAXA-500",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10X6",
+          "quantity": 309,
+          "unit": ""
+        },
+        {
+          "name": "TRENEXA-INJ",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "5X5ML",
+          "quantity": 575,
+          "unit": ""
+        },
+        {
+          "name": "ZITHROX 250",
+          "company": "Macleods 3 (Cefolac)",
+          "pack": "10X10",
+          "quantity": 122,
+          "unit": ""
+        },
+        {
+          "name": "BUDETROL 400 R/C",
+          "company": "Macleods 4 (Defcort)",
+          "pack": "1*30",
+          "quantity": 276,
+          "unit": ""
+        },
+        {
+          "name": "RAPITUS-SYP",
+          "company": "Macleods 4 (Defcort)",
+          "pack": "1PH",
+          "quantity": 70,
+          "unit": ""
+        },
+        {
+          "name": "BIO D3 FEM",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "10*10",
+          "quantity": 22,
+          "unit": ""
+        },
+        {
+          "name": "BIO D3 MAX",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "10*10",
+          "quantity": 162,
+          "unit": ""
+        },
+        {
+          "name": "BIO D3 PLUS",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "10*15",
+          "quantity": 120,
+          "unit": ""
+        },
+        {
+          "name": "MACPROT KESAR 200 GM",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "",
+          "quantity": 5,
+          "unit": "PCS"
+        },
+        {
+          "name": "MACPROT SF KESAR",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "1*1",
+          "quantity": 27,
+          "unit": "PCS"
+        },
+        {
+          "name": "ORCERIN CAP",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "10X10",
+          "quantity": 89,
+          "unit": ""
+        },
+        {
+          "name": "ORCERIN GM",
+          "company": "Macleods 5 (Bio D3 Strong)",
+          "pack": "10X10",
+          "quantity": 22,
+          "unit": ""
+        },
+        {
+          "name": "AMLOKIND 5**",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 545,
+          "unit": "PCS"
+        },
+        {
+          "name": "ASTHAKIND LS 100ML*",
+          "company": "Mankind",
+          "pack": "60*100ML",
+          "quantity": 58,
+          "unit": ""
+        },
+        {
+          "name": "ASTHAKIND LS SYP** 60ML",
+          "company": "Mankind",
+          "pack": "1*60ML",
+          "quantity": 44,
+          "unit": "PCS"
+        },
+        {
+          "name": "CALAPURE A LOTION 100ML.",
+          "company": "Mankind",
+          "pack": "",
+          "quantity": 13,
+          "unit": "PCS"
+        },
+        {
+          "name": "CANDIFORCE CREAM 15GM",
+          "company": "Mankind",
+          "pack": "",
+          "quantity": 66,
+          "unit": "PCS"
+        },
+        {
+          "name": "CILAHEART 10 *",
+          "company": "Mankind",
+          "pack": "3*10",
+          "quantity": 300,
+          "unit": "PCS"
+        },
+        {
+          "name": "CODISTAR DX SYP 100ML*",
+          "company": "Mankind",
+          "pack": "48*100ML",
+          "quantity": 71,
+          "unit": "PCS"
+        },
+        {
+          "name": "DROGYNA TAB (MRP)",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 421,
+          "unit": "PCS"
+        },
+        {
+          "name": "DYDROBOON TAB",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 190,
+          "unit": "PCS"
+        },
+        {
+          "name": "DYNAGLIPT 20**",
+          "company": "Mankind",
+          "pack": "6*10",
+          "quantity": 26,
+          "unit": "PCS"
+        },
+        {
+          "name": "GAS O FAST SACHET (J)",
+          "company": "Mankind",
+          "pack": "120*1",
+          "quantity": 13177,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR MV 2 TAB",
+          "company": "Mankind",
+          "pack": "3*10",
+          "quantity": 123,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR-M1 FORTE*",
+          "company": "Mankind",
+          "pack": "2*30",
+          "quantity": 175,
+          "unit": "PCS"
+        },
+        {
+          "name": "HICOPE 10*",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 95,
+          "unit": "PCS"
+        },
+        {
+          "name": "HICOPE 25* (MRP)",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 79,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAHACEF PLUS 100 TAB",
+          "company": "Mankind",
+          "pack": "3*10",
+          "quantity": 6,
+          "unit": "PCS"
+        },
+        {
+          "name": "NOBEL SPAS INJ**",
+          "company": "Mankind",
+          "pack": "12*2ML",
+          "quantity": 386,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUCORT M 8*",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 119,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUCORT M4*",
+          "company": "Mankind",
+          "pack": "10*10",
+          "quantity": 26,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUFORCE SHAMPOO **",
+          "company": "Mankind",
+          "pack": "1X50ML",
+          "quantity": 27,
+          "unit": ""
+        },
+        {
+          "name": "NUROKIND GOLD CAP*",
+          "company": "Mankind",
+          "pack": "6*10",
+          "quantity": 1269,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUROKIND OD TAB *",
+          "company": "Mankind",
+          "pack": "6*20",
+          "quantity": 51,
+          "unit": ""
+        },
+        {
+          "name": "PLACIDA*",
+          "company": "Mankind",
+          "pack": "12*10",
+          "quantity": 718,
+          "unit": "PCS"
+        },
+        {
+          "name": "TELMIKIND CT 40**",
+          "company": "Mankind",
+          "pack": "6*10",
+          "quantity": 77,
+          "unit": "PCS"
+        },
+        {
+          "name": "THERMOKIND F GEL 100GM*",
+          "company": "Mankind",
+          "pack": "MANKIND",
+          "quantity": 302,
+          "unit": "PCS"
+        },
+        {
+          "name": "THERMOKIND F GEL 50GM**",
+          "company": "Mankind",
+          "pack": "MANKIND",
+          "quantity": 360,
+          "unit": "PCS"
+        },
+        {
+          "name": "URIKIND KM6*",
+          "company": "Mankind",
+          "pack": "100ML SYP",
+          "quantity": 7,
+          "unit": ""
+        },
+        {
+          "name": "ZENFLOX PLUS 100**",
+          "company": "Mankind",
+          "pack": "6*10",
+          "quantity": 72,
+          "unit": "PCS"
+        },
+        {
+          "name": "AMLOKIND AT *",
+          "company": "Mankind (9)",
+          "pack": "10*10",
+          "quantity": 964,
+          "unit": "PCS"
+        },
+        {
+          "name": "ASTHAKIND DX SYP 60ML",
+          "company": "Mankind (9)",
+          "pack": "84*60ML",
+          "quantity": 53,
+          "unit": "PCS"
+        },
+        {
+          "name": "ASTHAKIND LS 60ML*",
+          "company": "Mankind (9)",
+          "pack": "84*60ML",
+          "quantity": 12,
+          "unit": ""
+        },
+        {
+          "name": "CALDIKIND PLUS CAP **",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 414,
+          "unit": "PCS"
+        },
+        {
+          "name": "CEFAKIND 250*",
+          "company": "Mankind (9)",
+          "pack": "4*10",
+          "quantity": 11,
+          "unit": "PCS"
+        },
+        {
+          "name": "CEFAKIND 500*",
+          "company": "Mankind (9)",
+          "pack": "6*6",
+          "quantity": 20,
+          "unit": "PCS"
+        },
+        {
+          "name": "CODISTAR DX 60ML* (MRP)",
+          "company": "Mankind (9)",
+          "pack": "",
+          "quantity": 224,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLOKIND MR*",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 24,
+          "unit": "PCS"
+        },
+        {
+          "name": "DYNAGLIPT M**",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 50,
+          "unit": "PCS"
+        },
+        {
+          "name": "FLOZEN AA*",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 221,
+          "unit": "PCS"
+        },
+        {
+          "name": "FYNAL 500**",
+          "company": "Mankind (9)",
+          "pack": "8*5",
+          "quantity": 71,
+          "unit": "PCS"
+        },
+        {
+          "name": "FYNAL OZ**",
+          "company": "Mankind (9)",
+          "pack": "8*6",
+          "quantity": 438,
+          "unit": "PCS"
+        },
+        {
+          "name": "GASTICA DROP*",
+          "company": "Mankind (9)",
+          "pack": "15ML",
+          "quantity": 493,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR 1 MG**",
+          "company": "Mankind (9)",
+          "pack": "10*10",
+          "quantity": 100,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR 2**",
+          "company": "Mankind (9)",
+          "pack": "10*10",
+          "quantity": 54,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR M1*",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 743,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR M2*",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 1167,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR PM1**",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 303,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR PM2*",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 6,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLYKIND M TAB *",
+          "company": "Mankind (9)",
+          "pack": "12*10",
+          "quantity": 152,
+          "unit": "PCS"
+        },
+        {
+          "name": "GUDCEF 50 DRY SYP",
+          "company": "Mankind (9)",
+          "pack": "1*50ML",
+          "quantity": 122,
+          "unit": "PCS"
+        },
+        {
+          "name": "GUDCEF DROP *",
+          "company": "Mankind (9)",
+          "pack": "20*1",
+          "quantity": 49,
+          "unit": "PCS"
+        },
+        {
+          "name": "LECOPE TAB**",
+          "company": "Mankind (9)",
+          "pack": "15*10",
+          "quantity": 5,
+          "unit": "PCS"
+        },
+        {
+          "name": "MONTICOPE TAB *",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 267,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUFORCE 150*",
+          "company": "Mankind (9)",
+          "pack": "30*10",
+          "quantity": 106,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUFORCE 200*",
+          "company": "Mankind (9)",
+          "pack": "15*10",
+          "quantity": 14,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUROKIND PLUS INJ** (MRP)",
+          "company": "Mankind (9)",
+          "pack": "12X2ML",
+          "quantity": 645,
+          "unit": ""
+        },
+        {
+          "name": "PANTAKIND FLUX*",
+          "company": "Mankind (9)",
+          "pack": "3*10",
+          "quantity": -6,
+          "unit": "PCS"
+        },
+        {
+          "name": "TELMIKIND 40**",
+          "company": "Mankind (9)",
+          "pack": "10*10",
+          "quantity": 2149,
+          "unit": "PCS"
+        },
+        {
+          "name": "TELMIKIND AM TAB**",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 1245,
+          "unit": "PCS"
+        },
+        {
+          "name": "TELMIKIND H**",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 1466,
+          "unit": "PCS"
+        },
+        {
+          "name": "TERBINAFORCE 250 TAB**",
+          "company": "Mankind (9)",
+          "pack": "2*7",
+          "quantity": 155,
+          "unit": ""
+        },
+        {
+          "name": "UNWANTED KIT -",
+          "company": "Mankind (9)",
+          "pack": "40*1",
+          "quantity": 102,
+          "unit": "PCS"
+        },
+        {
+          "name": "VENTIDOX M *",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 33,
+          "unit": "PCS"
+        },
+        {
+          "name": "VOMIKIND MD 4**",
+          "company": "Mankind (9)",
+          "pack": "10*10",
+          "quantity": 374,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZENFLOX PLUS TAB**",
+          "company": "Mankind (9)",
+          "pack": "6*10",
+          "quantity": 425,
+          "unit": "PCS"
+        },
+        {
+          "name": "ACNESTAR GEL **",
+          "company": "Mankind (Special)",
+          "pack": "1*1",
+          "quantity": 315,
+          "unit": "PCS"
+        },
+        {
+          "name": "ACNESTAR SOAP**",
+          "company": "Mankind (Special)",
+          "pack": "12*1",
+          "quantity": 112,
+          "unit": "PCS"
+        },
+        {
+          "name": "MANFORCE 100*",
+          "company": "Mankind (Special)",
+          "pack": "32*10",
+          "quantity": 1294,
+          "unit": "PCS"
+        },
+        {
+          "name": "MANFORCE 50 TAB*",
+          "company": "Mankind (Special)",
+          "pack": "32*10",
+          "quantity": 100,
+          "unit": "PCS"
+        },
+        {
+          "name": "MANFORCE CONDOM",
+          "company": "Mankind (Special)",
+          "pack": "78*3PC",
+          "quantity": 1005,
+          "unit": ""
+        },
+        {
+          "name": "MANFORCE STAYLONG TAB",
+          "company": "Mankind (Special)",
+          "pack": "15*4",
+          "quantity": 333,
+          "unit": "PCS"
+        },
+        {
+          "name": "PREGA NEWS*",
+          "company": "Mankind (Special)",
+          "pack": "60*1",
+          "quantity": 5260,
+          "unit": ""
+        },
+        {
+          "name": "UNWANTED 72**",
+          "company": "Mankind (Special)",
+          "pack": "30*1",
+          "quantity": 168,
+          "unit": "PCS"
+        },
+        {
+          "name": "GATIKIND E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "5ML",
+          "quantity": 135,
+          "unit": ""
+        },
+        {
+          "name": "LUBISTAR 0.5% E/D (MRP)",
+          "company": "Mankind Eye Drops",
+          "pack": "10ML",
+          "quantity": 59,
+          "unit": ""
+        },
+        {
+          "name": "MAHAFLOX D E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "1*5ML",
+          "quantity": 245,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAHAFLOX E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "50*5ML",
+          "quantity": 283,
+          "unit": ""
+        },
+        {
+          "name": "MAHAFLOX EYE OINTMENT",
+          "company": "Mankind Eye Drops",
+          "pack": "1*5G",
+          "quantity": 37,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAHAFLOX KT E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "5ML",
+          "quantity": 119,
+          "unit": ""
+        },
+        {
+          "name": "MAHAFLOX LP E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "5ML",
+          "quantity": 41,
+          "unit": ""
+        },
+        {
+          "name": "NEPASTAR E/D (MRP)",
+          "company": "Mankind Eye Drops",
+          "pack": "5ML",
+          "quantity": 76,
+          "unit": "PCS"
+        },
+        {
+          "name": "TOBASTAR E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "5ML",
+          "quantity": 499,
+          "unit": ""
+        },
+        {
+          "name": "TOBASTAR-F E/D",
+          "company": "Mankind Eye Drops",
+          "pack": "5ML",
+          "quantity": 83,
+          "unit": ""
+        },
+        {
+          "name": "DROTIN DS TAB",
+          "company": "Martin Harris",
+          "pack": "30*10",
+          "quantity": 267,
+          "unit": ""
+        },
+        {
+          "name": "DROTIN INJ 2ML",
+          "company": "Martin Harris",
+          "pack": "1*2ML",
+          "quantity": 1465,
+          "unit": "PCS"
+        },
+        {
+          "name": "DROTIN M TAB",
+          "company": "Martin Harris",
+          "pack": "25*10",
+          "quantity": 187,
+          "unit": "PCS"
+        },
+        {
+          "name": "DROTIN SYP",
+          "company": "Martin Harris",
+          "pack": "1*1",
+          "quantity": 117,
+          "unit": "PCS"
+        },
+        {
+          "name": "DROTIN TAB",
+          "company": "Martin Harris",
+          "pack": "30*10",
+          "quantity": 177,
+          "unit": ""
+        },
+        {
+          "name": "O2 M SYP",
+          "company": "Medley Pharmaceuticals Ltd",
+          "pack": "1",
+          "quantity": 159,
+          "unit": "PCS"
+        },
+        {
+          "name": "R.B TONE INJ (MRP)",
+          "company": "Medley Pharmaceuticals Ltd",
+          "pack": "1*5ML",
+          "quantity": 859,
+          "unit": "PCS"
+        },
+        {
+          "name": "AMLONG 10",
+          "company": "Micro",
+          "pack": "25*15",
+          "quantity": 292,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG 2.5",
+          "company": "Micro",
+          "pack": "25*15",
+          "quantity": 96,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG 5",
+          "company": "Micro",
+          "pack": "20*30",
+          "quantity": 445,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG A 25 TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 22,
+          "unit": "PCS"
+        },
+        {
+          "name": "AMLONG A 50",
+          "company": "Micro",
+          "pack": "40*10",
+          "quantity": 43,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG H",
+          "company": "Micro",
+          "pack": "40*10",
+          "quantity": 66,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG MT 25",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 279,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG MT 50",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 29,
+          "unit": ""
+        },
+        {
+          "name": "AMLONG TRIO TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 19,
+          "unit": "PCS"
+        },
+        {
+          "name": "ANGIPLAT 2.5",
+          "company": "Micro",
+          "pack": "50PCS",
+          "quantity": 105,
+          "unit": "PCS"
+        },
+        {
+          "name": "ANGIPLAT 6.5",
+          "company": "Micro",
+          "pack": "50PCS",
+          "quantity": 70,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARBITEL AMH TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 46,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARBITEL MT 25MG TAB",
+          "company": "Micro",
+          "pack": "7s",
+          "quantity": 21,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARBITEL MT 50MG TAB",
+          "company": "Micro",
+          "pack": "7s",
+          "quantity": 18,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARBITEL TRIO 25 MG TAB",
+          "company": "Micro",
+          "pack": "15s",
+          "quantity": 21,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARBITEL TRIO 50 MG TAB (MRP)",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 56,
+          "unit": "PCS"
+        },
+        {
+          "name": "AVAS 10",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 234,
+          "unit": ""
+        },
+        {
+          "name": "AVAS 20",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 312,
+          "unit": ""
+        },
+        {
+          "name": "AVAS 40",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 213,
+          "unit": ""
+        },
+        {
+          "name": "AVAS 5",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 54,
+          "unit": "PCS"
+        },
+        {
+          "name": "AVAS 80",
+          "company": "Micro",
+          "pack": "5*10",
+          "quantity": 53,
+          "unit": ""
+        },
+        {
+          "name": "AVAS CV 10 CAP",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 26,
+          "unit": "PCS"
+        },
+        {
+          "name": "AVAS CV 20 CAP",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 55,
+          "unit": "PCS"
+        },
+        {
+          "name": "AVAS F TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 22,
+          "unit": "PCS"
+        },
+        {
+          "name": "AVAS GOLD 10",
+          "company": "Micro",
+          "pack": "3*10",
+          "quantity": 72,
+          "unit": "PCS"
+        },
+        {
+          "name": "AVAS GOLD 20 TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 48,
+          "unit": "PCS"
+        },
+        {
+          "name": "BRIGREL 90MG TAB",
+          "company": "Micro",
+          "pack": "3*10",
+          "quantity": 137,
+          "unit": "PCS"
+        },
+        {
+          "name": "CARIPIL TAB (MRP)",
+          "company": "Micro",
+          "pack": "1*5",
+          "quantity": 317,
+          "unit": "PCS"
+        },
+        {
+          "name": "CARVIDON MR",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 141,
+          "unit": "PCS"
+        },
+        {
+          "name": "CARVIDON OD 40",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 114,
+          "unit": "PCS"
+        },
+        {
+          "name": "CARVIDON OD 80",
+          "company": "Micro",
+          "pack": "3*10",
+          "quantity": 29,
+          "unit": "PCS"
+        },
+        {
+          "name": "CHANNEL SR 90MG TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 55,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIANORM OD 30",
+          "company": "Micro",
+          "pack": "10X10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "DIANORM TOTAL 60 TAB",
+          "company": "Micro",
+          "pack": "15s",
+          "quantity": 13,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIAPRIDE 2",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 66,
+          "unit": ""
+        },
+        {
+          "name": "DIAPRIDE M1",
+          "company": "Micro",
+          "pack": "15*15",
+          "quantity": 281,
+          "unit": ""
+        },
+        {
+          "name": "DIAPRIDE M1 FORTE",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 31,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIAPRIDE M2",
+          "company": "Micro",
+          "pack": "15*15",
+          "quantity": 351,
+          "unit": ""
+        },
+        {
+          "name": "DIAPRIDE M2 FORTE",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 128,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIAPRIDE M3",
+          "company": "Micro",
+          "pack": "15*15",
+          "quantity": 127,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIAPRIDE M3 FORTE TAB",
+          "company": "Micro",
+          "pack": "10*15",
+          "quantity": 197,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIAPRIDE M4 FORTE TAB",
+          "company": "Micro",
+          "pack": "10*1",
+          "quantity": 188,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLO 120 SYP",
+          "company": "Micro",
+          "pack": "1*60ML",
+          "quantity": 601,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLO 250 SYP",
+          "company": "Micro",
+          "pack": "100*60ML",
+          "quantity": 951,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLO 500 TAB",
+          "company": "Micro",
+          "pack": "50*24",
+          "quantity": 3140,
+          "unit": ""
+        },
+        {
+          "name": "DOLO DROP",
+          "company": "Micro",
+          "pack": "120*15ML",
+          "quantity": 725,
+          "unit": "PCS"
+        },
+        {
+          "name": "FIBROVAS TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 18,
+          "unit": "PCS"
+        },
+        {
+          "name": "GINKOBA TAB",
+          "company": "Micro",
+          "pack": "12*10",
+          "quantity": 154,
+          "unit": "PCS"
+        },
+        {
+          "name": "HOPACE MT 25MG TAB",
+          "company": "Micro",
+          "pack": "7s",
+          "quantity": 28,
+          "unit": "PCS"
+        },
+        {
+          "name": "HOPACE MT 50 TAB",
+          "company": "Micro",
+          "pack": "7s",
+          "quantity": 94,
+          "unit": "PCS"
+        },
+        {
+          "name": "LEVACETAM 500",
+          "company": "Micro",
+          "pack": "10*15",
+          "quantity": 64,
+          "unit": "PCS"
+        },
+        {
+          "name": "MELMET SR 1000MG TAB",
+          "company": "Micro",
+          "pack": "15s",
+          "quantity": 21,
+          "unit": "PCS"
+        },
+        {
+          "name": "MELMET SR 500",
+          "company": "Micro",
+          "pack": "20*10",
+          "quantity": 989,
+          "unit": "PCS"
+        },
+        {
+          "name": "METAPRO XL 25",
+          "company": "Micro",
+          "pack": "10*15",
+          "quantity": 141,
+          "unit": "PCS"
+        },
+        {
+          "name": "METAPRO XL 50",
+          "company": "Micro",
+          "pack": "10*15",
+          "quantity": 88,
+          "unit": "PCS"
+        },
+        {
+          "name": "MOXILONG 0.2 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 191,
+          "unit": "PCS"
+        },
+        {
+          "name": "MOXILONG 0.3 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 269,
+          "unit": "PCS"
+        },
+        {
+          "name": "NEBILONG 2.5 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 136,
+          "unit": "PCS"
+        },
+        {
+          "name": "NEBILONG 5",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 116,
+          "unit": "PCS"
+        },
+        {
+          "name": "NEBILONG-H",
+          "company": "Micro",
+          "pack": "10X10",
+          "quantity": 63,
+          "unit": ""
+        },
+        {
+          "name": "NEUROCETAM 800",
+          "company": "Micro",
+          "pack": "3*10",
+          "quantity": 13,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG 10",
+          "company": "Micro",
+          "pack": "10*15",
+          "quantity": 127,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG 20 TAB",
+          "company": "Micro",
+          "pack": "15s",
+          "quantity": 23,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG 5MG TAB",
+          "company": "Micro",
+          "pack": "10*15",
+          "quantity": 111,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG MT 25 TAB",
+          "company": "Micro",
+          "pack": "15s",
+          "quantity": 55,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG MT 50 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 38,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG OL 20 TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 27,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG OL 40MG TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 28,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG T",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 9,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG TRIO 20",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 231,
+          "unit": "PCS"
+        },
+        {
+          "name": "NULONG TRIO 40 TAB",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 51,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 20 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 299,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 20AM",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 56,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 20AMH TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 70,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 40 H",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 22,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 40 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 173,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 40AM TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 29,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT 40AMH TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 21,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT CT 20",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 32,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT CT 40",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 56,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT H TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 47,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT MT 25 TAB",
+          "company": "Micro",
+          "pack": "15s",
+          "quantity": 17,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLMAT MT-50 TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 78,
+          "unit": "PCS"
+        },
+        {
+          "name": "PLAGERINE A 150MG CAP",
+          "company": "Micro",
+          "pack": "10s",
+          "quantity": 82,
+          "unit": "PCS"
+        },
+        {
+          "name": "PLAGERINE A 75 CAP",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 248,
+          "unit": ""
+        },
+        {
+          "name": "SILYBON 100ML SYP",
+          "company": "Micro",
+          "pack": "64*100ML",
+          "quantity": 145,
+          "unit": "PCS"
+        },
+        {
+          "name": "SILYBON 140 TAB",
+          "company": "Micro",
+          "pack": "30*10",
+          "quantity": 161,
+          "unit": "PCS"
+        },
+        {
+          "name": "SILYBON 200ML SYP",
+          "company": "Micro",
+          "pack": "50*200ML",
+          "quantity": 66,
+          "unit": "PCS"
+        },
+        {
+          "name": "SILYBON 70 TAB",
+          "company": "Micro",
+          "pack": "30*10",
+          "quantity": 324,
+          "unit": "PCS"
+        },
+        {
+          "name": "TELPLUS TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 421,
+          "unit": ""
+        },
+        {
+          "name": "TELPLUS TRIO TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 147,
+          "unit": ""
+        },
+        {
+          "name": "TENEPRIDE 20",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 209,
+          "unit": ""
+        },
+        {
+          "name": "TENEPRIDE M 500 TAB",
+          "company": "Micro",
+          "pack": "15*10",
+          "quantity": 284,
+          "unit": "PCS"
+        },
+        {
+          "name": "TRIPRIDE 1",
+          "company": "Micro",
+          "pack": "15*10",
+          "quantity": 134,
+          "unit": ""
+        },
+        {
+          "name": "VILDAPRIDE 50",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 64,
+          "unit": ""
+        },
+        {
+          "name": "VILDAPRIDE M 50/500",
+          "company": "Micro",
+          "pack": "3*10",
+          "quantity": 51,
+          "unit": "PCS"
+        },
+        {
+          "name": "VILPOWER 50",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 13,
+          "unit": "PCS"
+        },
+        {
+          "name": "VILPOWER M 500 TAB",
+          "company": "Micro",
+          "pack": "3*1",
+          "quantity": 131,
+          "unit": "PCS"
+        },
+        {
+          "name": "VOGLINORM 0.2",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 48,
+          "unit": ""
+        },
+        {
+          "name": "VOGLINORM 0.3",
+          "company": "Micro",
+          "pack": "10X10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "VOGLINORM GM 2 TAB",
+          "company": "Micro",
+          "pack": "6*10",
+          "quantity": 46,
+          "unit": "PCS"
+        },
+        {
+          "name": "VOGLINORM GM FORT 2MG TAB",
+          "company": "Micro",
+          "pack": "10*10",
+          "quantity": 37,
+          "unit": "PCS"
+        },
+        {
+          "name": "DEXOLAC NO 4*",
+          "company": "Nutricia (Protinex)",
+          "pack": "400GM",
+          "quantity": 2,
+          "unit": "PCS"
+        },
+        {
+          "name": "Protinex 230GM (TASTY)",
+          "company": "Nutricia (Protinex)",
+          "pack": "48*230GM",
+          "quantity": 48,
+          "unit": "PCS"
+        },
+        {
+          "name": "Protinex Diabetes 200 (V)",
+          "company": "Nutricia (Protinex)",
+          "pack": "200GM",
+          "quantity": 12,
+          "unit": "PCS"
+        },
+        {
+          "name": "Protinex Mama250GM (CHOKO)",
+          "company": "Nutricia (Protinex)",
+          "pack": "250GM",
+          "quantity": 2,
+          "unit": "PCS"
+        },
+        {
+          "name": "PROTINEX MOTHERS CHOCO 250GM",
+          "company": "Nutricia (Protinex)",
+          "pack": "48*250GM",
+          "quantity": 12,
+          "unit": "PCS"
+        },
+        {
+          "name": "Protinex Original 230GM",
+          "company": "Nutricia (Protinex)",
+          "pack": "40*250GM",
+          "quantity": 65,
+          "unit": "PCS"
+        },
+        {
+          "name": "FEBUTAZ 40",
+          "company": "Sun 9%",
+          "pack": "10 STR",
+          "quantity": 398,
+          "unit": ""
+        },
+        {
+          "name": "GEMER 1",
+          "company": "Sun 9%",
+          "pack": "5*10",
+          "quantity": 264,
+          "unit": ""
+        },
+        {
+          "name": "GEMER 2",
+          "company": "Sun 9%",
+          "pack": "5*10",
+          "quantity": 356,
+          "unit": ""
+        },
+        {
+          "name": "LACTIFIBER 120GM",
+          "company": "Sun 9%",
+          "pack": "1X120",
+          "quantity": 38,
+          "unit": ""
+        },
+        {
+          "name": "LEVIPIL 500 (SUN)",
+          "company": "Sun 9%",
+          "pack": "10*15",
+          "quantity": 419,
+          "unit": ""
+        },
+        {
+          "name": "MIRTAZ 15",
+          "company": "Sun 9%",
+          "pack": "10X10",
+          "quantity": 112,
+          "unit": ""
+        },
+        {
+          "name": "MIRTAZ 7.5",
+          "company": "Sun 9%",
+          "pack": "10X10",
+          "quantity": 86,
+          "unit": ""
+        },
+        {
+          "name": "NEXITO 10",
+          "company": "Sun 9%",
+          "pack": "5*15",
+          "quantity": 404,
+          "unit": ""
+        },
+        {
+          "name": "NEXITO 5",
+          "company": "Sun 9%",
+          "pack": "5*15",
+          "quantity": 108,
+          "unit": ""
+        },
+        {
+          "name": "PREDMET 4",
+          "company": "Sun 9%",
+          "pack": "10STR",
+          "quantity": 199,
+          "unit": ""
+        },
+        {
+          "name": "PREDMET 8",
+          "company": "Sun 9%",
+          "pack": "10 STR",
+          "quantity": 162,
+          "unit": ""
+        },
+        {
+          "name": "PROLOMET XL 25",
+          "company": "Sun 9%",
+          "pack": "10*10",
+          "quantity": 136,
+          "unit": ""
+        },
+        {
+          "name": "PROLOMET XL 50",
+          "company": "Sun 9%",
+          "pack": "10*10",
+          "quantity": 155,
+          "unit": ""
+        },
+        {
+          "name": "RIFAGUT 200",
+          "company": "Sun 9%",
+          "pack": "10X10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "RIFAGUT 400",
+          "company": "Sun 9%",
+          "pack": "10X10",
+          "quantity": 42,
+          "unit": ""
+        },
+        {
+          "name": "SYNDOPA-110",
+          "company": "Sun 9%",
+          "pack": "10X10",
+          "quantity": 85,
+          "unit": ""
+        },
+        {
+          "name": "SYNDOPA-PLUS",
+          "company": "Sun 9%",
+          "pack": "10X10",
+          "quantity": 192,
+          "unit": ""
+        },
+        {
+          "name": "ADMENTA 10",
+          "company": "Sun Pharma Regular",
+          "pack": "10X10",
+          "quantity": 31,
+          "unit": ""
+        },
+        {
+          "name": "AXCER 90",
+          "company": "Sun Pharma Regular",
+          "pack": "5*14",
+          "quantity": 62,
+          "unit": ""
+        },
+        {
+          "name": "AZTOR 20MG",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 56,
+          "unit": ""
+        },
+        {
+          "name": "AZTOR 40MG",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 36,
+          "unit": ""
+        },
+        {
+          "name": "AZTOR ASP 75",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 80,
+          "unit": ""
+        },
+        {
+          "name": "BETAVERT 24",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 7,
+          "unit": ""
+        },
+        {
+          "name": "DRONIS-20",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 4,
+          "unit": ""
+        },
+        {
+          "name": "DRONIS-30",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 9,
+          "unit": ""
+        },
+        {
+          "name": "FebuTAZZ 80",
+          "company": "Sun Pharma Regular",
+          "pack": "10 STR",
+          "quantity": 29,
+          "unit": ""
+        },
+        {
+          "name": "FERTISURE F",
+          "company": "Sun Pharma Regular",
+          "pack": "05*10",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "FERTISURE M",
+          "company": "Sun Pharma Regular",
+          "pack": "05*10",
+          "quantity": 213,
+          "unit": ""
+        },
+        {
+          "name": "GEMER 3",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 44,
+          "unit": ""
+        },
+        {
+          "name": "GEMER 4",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 19,
+          "unit": ""
+        },
+        {
+          "name": "GEMER DS 1",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 33,
+          "unit": ""
+        },
+        {
+          "name": "GEMER P1",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 37,
+          "unit": ""
+        },
+        {
+          "name": "GEMER P2",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 118,
+          "unit": ""
+        },
+        {
+          "name": "GYNAZOL 100",
+          "company": "Sun Pharma Regular",
+          "pack": "3X10",
+          "quantity": 56,
+          "unit": ""
+        },
+        {
+          "name": "GYNAZOL-50 CAP",
+          "company": "Sun Pharma Regular",
+          "pack": "3X10",
+          "quantity": 30,
+          "unit": ""
+        },
+        {
+          "name": "ISTAMET 50/1000",
+          "company": "Sun Pharma Regular",
+          "pack": "2*10",
+          "quantity": 208,
+          "unit": ""
+        },
+        {
+          "name": "ISTAMET 50/500",
+          "company": "Sun Pharma Regular",
+          "pack": "5*15",
+          "quantity": 35,
+          "unit": ""
+        },
+        {
+          "name": "ISTAMET D XR 500",
+          "company": "Sun Pharma Regular",
+          "pack": "",
+          "quantity": 46,
+          "unit": "PCS"
+        },
+        {
+          "name": "LABEBET-100",
+          "company": "Sun Pharma Regular",
+          "pack": "5X10",
+          "quantity": 132,
+          "unit": ""
+        },
+        {
+          "name": "LACTIHEP SYP 450ML",
+          "company": "Sun Pharma Regular",
+          "pack": "1*450ML",
+          "quantity": 2,
+          "unit": ""
+        },
+        {
+          "name": "LESURIDE TAB",
+          "company": "Sun Pharma Regular",
+          "pack": "10 STR",
+          "quantity": 625,
+          "unit": ""
+        },
+        {
+          "name": "LETOVAL TAB",
+          "company": "Sun Pharma Regular",
+          "pack": "5X5",
+          "quantity": 195,
+          "unit": ""
+        },
+        {
+          "name": "LEVIPIL 750",
+          "company": "Sun Pharma Regular",
+          "pack": "3*10",
+          "quantity": 52,
+          "unit": ""
+        },
+        {
+          "name": "METOSARTAN 25",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 121,
+          "unit": ""
+        },
+        {
+          "name": "METOSARTAN 50",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 495,
+          "unit": ""
+        },
+        {
+          "name": "METOSARTAN CH 25",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 42,
+          "unit": "PCS"
+        },
+        {
+          "name": "METOSARTAN LN 25",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 5,
+          "unit": "PCS"
+        },
+        {
+          "name": "METOSARTAN LN 50",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 9,
+          "unit": "PCS"
+        },
+        {
+          "name": "OLEANZ PLUS",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": -9,
+          "unit": ""
+        },
+        {
+          "name": "OXRA 10MG",
+          "company": "Sun Pharma Regular",
+          "pack": "2*10",
+          "quantity": 94,
+          "unit": ""
+        },
+        {
+          "name": "OXRA S 10/100",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 54,
+          "unit": "PCS"
+        },
+        {
+          "name": "PANTOCID 40",
+          "company": "Sun Pharma Regular",
+          "pack": "10*15",
+          "quantity": 176,
+          "unit": ""
+        },
+        {
+          "name": "PANTOCID DSR",
+          "company": "Sun Pharma Regular",
+          "pack": "10TAB",
+          "quantity": 211,
+          "unit": ""
+        },
+        {
+          "name": "PANTOCID L",
+          "company": "Sun Pharma Regular",
+          "pack": "05TAB",
+          "quantity": 128,
+          "unit": ""
+        },
+        {
+          "name": "PROLOMET AM 50",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 66,
+          "unit": ""
+        },
+        {
+          "name": "PROLOMET R 50",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 45,
+          "unit": ""
+        },
+        {
+          "name": "RANOZEX TAB",
+          "company": "Sun Pharma Regular",
+          "pack": "10 STR",
+          "quantity": 92,
+          "unit": ""
+        },
+        {
+          "name": "REVLAMER 400",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 154,
+          "unit": ""
+        },
+        {
+          "name": "REVLAMER 800",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 19,
+          "unit": ""
+        },
+        {
+          "name": "ROSUVA GOLD 10",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 14,
+          "unit": "PCS"
+        },
+        {
+          "name": "ROSUVA GOLD 20",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 53,
+          "unit": "PCS"
+        },
+        {
+          "name": "ROSUVAS F 5",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 87,
+          "unit": "PCS"
+        },
+        {
+          "name": "RozaVEL 20",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 2,
+          "unit": ""
+        },
+        {
+          "name": "SOMPRAZ (L)",
+          "company": "Sun Pharma Regular",
+          "pack": "5*10",
+          "quantity": 140,
+          "unit": ""
+        },
+        {
+          "name": "SOMPRAZ 40 (MRP)",
+          "company": "Sun Pharma Regular",
+          "pack": "10 STR",
+          "quantity": 49,
+          "unit": ""
+        },
+        {
+          "name": "SOMPRAZ D 40",
+          "company": "Sun Pharma Regular",
+          "pack": "10 STR",
+          "quantity": 443,
+          "unit": ""
+        },
+        {
+          "name": "SOMPRAZ IT",
+          "company": "Sun Pharma Regular",
+          "pack": "10 STR",
+          "quantity": 277,
+          "unit": ""
+        },
+        {
+          "name": "SUSTEN 300 CAP",
+          "company": "Sun Pharma Regular",
+          "pack": "5X10",
+          "quantity": 20,
+          "unit": ""
+        },
+        {
+          "name": "TRAFOLIC TAB 10S",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 8,
+          "unit": "PCS"
+        },
+        {
+          "name": "TRIVOLIB 2",
+          "company": "Sun Pharma Regular",
+          "pack": "10*10",
+          "quantity": 32,
+          "unit": ""
+        },
+        {
+          "name": "URSOCOL 150",
+          "company": "Sun Pharma Regular",
+          "pack": "10X10",
+          "quantity": 76,
+          "unit": ""
+        },
+        {
+          "name": "AMPOXIN 500MG CAP",
+          "company": "Torrent (Dilzem)",
+          "pack": "15*15",
+          "quantity": 56,
+          "unit": ""
+        },
+        {
+          "name": "DILZEM 30",
+          "company": "Torrent (Dilzem)",
+          "pack": "40*10",
+          "quantity": 84,
+          "unit": ""
+        },
+        {
+          "name": "DILZEM 60",
+          "company": "Torrent (Dilzem)",
+          "pack": "40*10",
+          "quantity": 76,
+          "unit": ""
+        },
+        {
+          "name": "DILZEM CD 120",
+          "company": "Torrent (Dilzem)",
+          "pack": "10*10",
+          "quantity": 186,
+          "unit": ""
+        },
+        {
+          "name": "DILZEM CD 90",
+          "company": "Torrent (Dilzem)",
+          "pack": "10*10",
+          "quantity": 277,
+          "unit": ""
+        },
+        {
+          "name": "DILZEM SR 90",
+          "company": "Torrent (Dilzem)",
+          "pack": "40*10",
+          "quantity": 52,
+          "unit": ""
+        },
+        {
+          "name": "LOPAMIDE",
+          "company": "Torrent (Dilzem)",
+          "pack": "75X20",
+          "quantity": 5515,
+          "unit": ""
+        },
+        {
+          "name": "SHELCAL 500",
+          "company": "Torrent (Dilzem)",
+          "pack": "10X15",
+          "quantity": 64,
+          "unit": ""
+        },
+        {
+          "name": "SHELCAL ISO",
+          "company": "Torrent (Dilzem)",
+          "pack": "10*10",
+          "quantity": 22,
+          "unit": "PCS"
+        },
+        {
+          "name": "UNIENZYME TAB",
+          "company": "Torrent (Dilzem)",
+          "pack": "20*15",
+          "quantity": 1475,
+          "unit": "PCS"
+        },
+        {
+          "name": "ECOSPORIN GOLD 10",
+          "company": "Usv",
+          "pack": "1X10",
+          "quantity": 5,
+          "unit": ""
+        },
+        {
+          "name": "ECOSPORIN GOLD 20",
+          "company": "Usv",
+          "pack": "10X10",
+          "quantity": 980,
+          "unit": ""
+        },
+        {
+          "name": "ECOSPRIN GOLD 10 FORTE",
+          "company": "Usv",
+          "pack": "10*10",
+          "quantity": 308,
+          "unit": "PCS"
+        },
+        {
+          "name": "MANFORCE STAYLONG GEL",
+          "company": "+Mankind Pharmaceuticals",
+          "pack": "12*8GM",
+          "quantity": 112,
+          "unit": "PCS"
+        },
+        {
+          "name": "DAFLON 1000",
+          "company": "+Serdia Pharma",
+          "pack": "1*20",
+          "quantity": 13,
+          "unit": ""
+        },
+        {
+          "name": "FLAVEDON-MR",
+          "company": "+Serdia Pharma",
+          "pack": "20*10",
+          "quantity": 67,
+          "unit": ""
+        },
+        {
+          "name": "FLAVENDON OD 80",
+          "company": "+Serdia Pharma",
+          "pack": "1*10",
+          "quantity": 55,
+          "unit": "PCS"
+        },
+        {
+          "name": "NATRILIX SR",
+          "company": "+Serdia Pharma",
+          "pack": "10*10",
+          "quantity": 22,
+          "unit": ""
+        },
+        {
+          "name": "ASTHALIN 4 TAB **",
+          "company": "Cipla (Rate)",
+          "pack": "60",
+          "quantity": 1539,
+          "unit": "PCS"
+        },
+        {
+          "name": "ASTHALIN R/C**",
+          "company": "Cipla (Rate)",
+          "pack": "1PC",
+          "quantity": 9,
+          "unit": ""
+        },
+        {
+          "name": "BUDECORT RESPULES 0.5*",
+          "company": "Cipla (Rate)",
+          "pack": "50*32",
+          "quantity": 16691,
+          "unit": ""
+        },
+        {
+          "name": "CIPLOX D 10ML E/D **",
+          "company": "Cipla (Rate)",
+          "pack": "25*1",
+          "quantity": 835,
+          "unit": "PCS"
+        },
+        {
+          "name": "DUOLIN 3ML RESPULES**",
+          "company": "Cipla (Rate)",
+          "pack": "40*3ML",
+          "quantity": 11147,
+          "unit": ""
+        },
+        {
+          "name": "DYTOR 10**",
+          "company": "Cipla (Rate)",
+          "pack": "100*10",
+          "quantity": 513,
+          "unit": ""
+        },
+        {
+          "name": "DYTOR 20*",
+          "company": "Cipla (Rate)",
+          "pack": "100*10",
+          "quantity": 288,
+          "unit": ""
+        },
+        {
+          "name": "DYTOR 5*",
+          "company": "Cipla (Rate)",
+          "pack": "30X10T",
+          "quantity": 855,
+          "unit": ""
+        },
+        {
+          "name": "DYTOR PLUS 10**",
+          "company": "Cipla (Rate)",
+          "pack": "60*10",
+          "quantity": 1342,
+          "unit": ""
+        },
+        {
+          "name": "DYTOR PLUS 20*",
+          "company": "Cipla (Rate)",
+          "pack": "60*10",
+          "quantity": 398,
+          "unit": ""
+        },
+        {
+          "name": "FORACORT 200** R/C (MRP)",
+          "company": "Cipla (Rate)",
+          "pack": "10*30",
+          "quantity": 241,
+          "unit": ""
+        },
+        {
+          "name": "FORACORT 400 INH**",
+          "company": "Cipla (Rate)",
+          "pack": "1PH",
+          "quantity": 34,
+          "unit": ""
+        },
+        {
+          "name": "FORACORT 400 SYNCHROBREATHE",
+          "company": "Cipla (Rate)",
+          "pack": "1PC",
+          "quantity": 2,
+          "unit": "PCS"
+        },
+        {
+          "name": "FORACORT 400* R/C (MRP)",
+          "company": "Cipla (Rate)",
+          "pack": "10*30",
+          "quantity": 4,
+          "unit": ""
+        },
+        {
+          "name": "LEVOLIN 0.31 RESPULES**",
+          "company": "Cipla (Rate)",
+          "pack": "48*36",
+          "quantity": 1583,
+          "unit": ""
+        },
+        {
+          "name": "LEVOLIN 0.63 RESPULES*",
+          "company": "Cipla (Rate)",
+          "pack": "48*30",
+          "quantity": 2333,
+          "unit": ""
+        },
+        {
+          "name": "MONTAIR LC**",
+          "company": "Cipla (Rate)",
+          "pack": "12*10",
+          "quantity": 1888,
+          "unit": "PCS"
+        },
+        {
+          "name": "MOXICIP-E/D",
+          "company": "Cipla (Rate)",
+          "pack": "1X3ML",
+          "quantity": 357,
+          "unit": ""
+        },
+        {
+          "name": "REVOLIZER",
+          "company": "Cipla (Rate)",
+          "pack": "1PC",
+          "quantity": 109,
+          "unit": ""
+        },
+        {
+          "name": "SITACIP M 50/500",
+          "company": "Cipla (Rate)",
+          "pack": "10*10",
+          "quantity": 22,
+          "unit": "PCS"
+        },
+        {
+          "name": "TIOVA R/C **",
+          "company": "Cipla (Rate)",
+          "pack": "1*1",
+          "quantity": 1,
+          "unit": "PCS"
+        },
+        {
+          "name": "A TO Z SYP 200ML**",
+          "company": "4Mix Com",
+          "pack": "",
+          "quantity": 291,
+          "unit": "PCS"
+        },
+        {
+          "name": "A TO Z TAB *",
+          "company": "4Mix Com",
+          "pack": "15*15",
+          "quantity": 128,
+          "unit": "PCS"
+        },
+        {
+          "name": "ALASPAN TAB",
+          "company": "4Mix Com",
+          "pack": "10*10",
+          "quantity": 21,
+          "unit": "PCS"
+        },
+        {
+          "name": "BETT INJ*",
+          "company": "4Mix Com",
+          "pack": "120*1",
+          "quantity": 1,
+          "unit": "PCS"
+        },
+        {
+          "name": "BOOKING FREIGHT",
+          "company": "4Mix Com",
+          "pack": "",
+          "quantity": -555,
+          "unit": "PCS"
+        },
+        {
+          "name": "CALPOL 650",
+          "company": "4Mix Com",
+          "pack": "30*15",
+          "quantity": 2539,
+          "unit": ""
+        },
+        {
+          "name": "CEFTUM 500MG",
+          "company": "4Mix Com",
+          "pack": "5*4tab",
+          "quantity": 224,
+          "unit": "PCS"
+        },
+        {
+          "name": "CELIN 500 TAB",
+          "company": "4Mix Com",
+          "pack": "20*10",
+          "quantity": 1966,
+          "unit": ""
+        },
+        {
+          "name": "CLAVAM 625* (MRP)",
+          "company": "4Mix Com",
+          "pack": "10*10",
+          "quantity": 355,
+          "unit": "PCS"
+        },
+        {
+          "name": "FREIGHT CHARGES CASE IS",
+          "company": "4Mix Com",
+          "pack": "1*1",
+          "quantity": 644,
+          "unit": "PCS"
+        },
+        {
+          "name": "LIPAGLYN 4",
+          "company": "4Mix Com",
+          "pack": "10*10",
+          "quantity": 83,
+          "unit": "PCS"
+        },
+        {
+          "name": "LOX 2% JELLY 30GM",
+          "company": "4Mix Com",
+          "pack": "20*1",
+          "quantity": 1600,
+          "unit": "PCS"
+        },
+        {
+          "name": "SATROGYL O SYP",
+          "company": "4Mix Com",
+          "pack": "1*60ML",
+          "quantity": 176,
+          "unit": "PCS"
+        },
+        {
+          "name": "SATROGYL O TAB",
+          "company": "4Mix Com",
+          "pack": "30*10",
+          "quantity": 350,
+          "unit": "PCS"
+        },
+        {
+          "name": "SUMAG OINT (MRP)",
+          "company": "4Mix Com",
+          "pack": "12*20",
+          "quantity": 1272,
+          "unit": ""
+        },
+        {
+          "name": "TAXIM-1GM INJ",
+          "company": "4Mix Com",
+          "pack": "1GM",
+          "quantity": 6505,
+          "unit": ""
+        },
+        {
+          "name": "TAXIM-500MG",
+          "company": "4Mix Com",
+          "pack": "1X1PH",
+          "quantity": 1460,
+          "unit": ""
+        },
+        {
+          "name": "THROMBOPHOB OINT",
+          "company": "4Mix Com",
+          "pack": "1X30GM",
+          "quantity": 106,
+          "unit": ""
+        },
+        {
+          "name": "TUSQ X SYP **",
+          "company": "4Mix Com",
+          "pack": "1*100ML",
+          "quantity": 35,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZERODOL P*",
+          "company": "4Mix Com",
+          "pack": "10*10",
+          "quantity": 93,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZERODOL P*",
+          "company": "4Mix Com",
+          "pack": "10*10",
+          "quantity": 776,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZINCOVIT TAB",
+          "company": "4Mix Com",
+          "pack": "1BOX",
+          "quantity": 299,
+          "unit": ""
+        },
+        {
+          "name": "ABHAYRAB INJ",
+          "company": "5Mix Com",
+          "pack": "1*1",
+          "quantity": 274,
+          "unit": ""
+        },
+        {
+          "name": "ARISTOZYME DROP",
+          "company": "5Mix Com",
+          "pack": "1*100",
+          "quantity": 110,
+          "unit": ""
+        },
+        {
+          "name": "ASTHAKIND DX JUNIOR**",
+          "company": "5Mix Com",
+          "pack": "1*60ML",
+          "quantity": 32,
+          "unit": "PCS"
+        },
+        {
+          "name": "CETZINE TAB",
+          "company": "5Mix Com",
+          "pack": "20X10",
+          "quantity": 597,
+          "unit": ""
+        },
+        {
+          "name": "COLICAID DROP",
+          "company": "5Mix Com",
+          "pack": "1X15",
+          "quantity": 728,
+          "unit": ""
+        },
+        {
+          "name": "COLICAID SYP",
+          "company": "5Mix Com",
+          "pack": "1*50",
+          "quantity": 49,
+          "unit": "PCS"
+        },
+        {
+          "name": "CROCIN ADVANCE TAB",
+          "company": "5Mix Com",
+          "pack": "25*1",
+          "quantity": 607,
+          "unit": "PCS"
+        },
+        {
+          "name": "CROCIN SYP",
+          "company": "5Mix Com",
+          "pack": "1*144PS",
+          "quantity": 190,
+          "unit": "PCS"
+        },
+        {
+          "name": "IRONEMIC PLUS CAP",
+          "company": "5Mix Com",
+          "pack": "1*15",
+          "quantity": 3,
+          "unit": "PCS"
+        },
+        {
+          "name": "JAGANNATH TRANSPORT BOOK",
+          "company": "5Mix Com",
+          "pack": "",
+          "quantity": -1,
+          "unit": "PCS"
+        },
+        {
+          "name": "KIDODENT CALVITY SHIELD",
+          "company": "5Mix Com",
+          "pack": "1-120",
+          "quantity": 103,
+          "unit": "PCS"
+        },
+        {
+          "name": "LYNX-2ML",
+          "company": "5Mix Com",
+          "pack": "",
+          "quantity": 731,
+          "unit": ""
+        },
+        {
+          "name": "LYNX-INJ-1ML",
+          "company": "5Mix Com",
+          "pack": "50*1ML",
+          "quantity": 160,
+          "unit": ""
+        },
+        {
+          "name": "OPTINEURON AMP",
+          "company": "5Mix Com",
+          "pack": "50X1ML",
+          "quantity": 369,
+          "unit": ""
+        },
+        {
+          "name": "PALMIGES CAP",
+          "company": "5Mix Com",
+          "pack": "1*1",
+          "quantity": 1,
+          "unit": "PCS"
+        },
+        {
+          "name": "PAN IV*",
+          "company": "5Mix Com",
+          "pack": "",
+          "quantity": 2660,
+          "unit": "PCS"
+        },
+        {
+          "name": "REFRESH TEARS***",
+          "company": "5Mix Com",
+          "pack": "1*1PC",
+          "quantity": 335,
+          "unit": "PCS"
+        },
+        {
+          "name": "RESPIRA SYP **",
+          "company": "5Mix Com",
+          "pack": "1*100ML",
+          "quantity": 3,
+          "unit": "PCS"
+        },
+        {
+          "name": "REVITAL H MEN 30CAP",
+          "company": "5Mix Com",
+          "pack": "QBM280725",
+          "quantity": 33,
+          "unit": "PCS"
+        },
+        {
+          "name": "SENSODENT-KF-75GM",
+          "company": "5Mix Com",
+          "pack": "1X75",
+          "quantity": 1,
+          "unit": ""
+        },
+        {
+          "name": "SIMILAC NO 4",
+          "company": "5Mix Com",
+          "pack": "400GM",
+          "quantity": 15,
+          "unit": "PCS"
+        },
+        {
+          "name": "ZERODOL TH8*",
+          "company": "5Mix Com",
+          "pack": "10*10",
+          "quantity": 76,
+          "unit": "PCS"
+        },
+        {
+          "name": "COMBIGAN***",
+          "company": "Aallergan",
+          "pack": "5ML",
+          "quantity": 53,
+          "unit": "PCS"
+        },
+        {
+          "name": "FML E/D***",
+          "company": "Aallergan",
+          "pack": "1PC",
+          "quantity": 17,
+          "unit": "PCS"
+        },
+        {
+          "name": "REFRESH LIQUIGEL***",
+          "company": "Aallergan",
+          "pack": "10ML",
+          "quantity": 74,
+          "unit": "PCS"
+        },
+        {
+          "name": "DIGENE SYP MINT 200ML (MRP)",
+          "company": "Abbott (Duphalac)",
+          "pack": "40*200ML",
+          "quantity": 885,
+          "unit": ""
+        },
+        {
+          "name": "DIGENE TAB MINT",
+          "company": "Abbott (Duphalac)",
+          "pack": "30*10",
+          "quantity": 876,
+          "unit": ""
+        },
+        {
+          "name": "DIGENE TAB ORANGE",
+          "company": "Abbott (Duphalac)",
+          "pack": "30 STRIP",
+          "quantity": 1625,
+          "unit": ""
+        },
+        {
+          "name": "DUPHALAC SYP 150ML",
+          "company": "Abbott (Duphalac)",
+          "pack": "50*150ML",
+          "quantity": 170,
+          "unit": ""
+        },
+        {
+          "name": "DUPHALAC SYP 450ML",
+          "company": "Abbott (Duphalac)",
+          "pack": "20*450ML",
+          "quantity": 18,
+          "unit": ""
+        },
+        {
+          "name": "EPTOIN 100MG",
+          "company": "Abbott (Eptoin)",
+          "pack": "1 PC",
+          "quantity": 106,
+          "unit": ""
+        },
+        {
+          "name": "EPTOIN 50",
+          "company": "Abbott (Eptoin)",
+          "pack": "1PC",
+          "quantity": 20,
+          "unit": ""
+        },
+        {
+          "name": "VERTIN 16",
+          "company": "Abbott (Eptoin)",
+          "pack": "10*15",
+          "quantity": 20,
+          "unit": ""
+        },
+        {
+          "name": "VERTIN 8",
+          "company": "Abbott (Eptoin)",
+          "pack": "1 BOX",
+          "quantity": 13,
+          "unit": ""
+        },
+        {
+          "name": "CREMAFFIN PLUS SYP",
+          "company": "Abbott India (Cremafin)",
+          "pack": "60*225ML",
+          "quantity": 32,
+          "unit": ""
+        },
+        {
+          "name": "CREMAFFIN SYP",
+          "company": "Abbott India (Cremafin)",
+          "pack": "60*225ML",
+          "quantity": 57,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 112",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "12*10",
+          "quantity": 9,
+          "unit": "PCS"
+        },
+        {
+          "name": "THYONORM 12.5",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "80*1PC",
+          "quantity": -1,
+          "unit": ""
+        },
+        {
+          "name": "THYOnorm 150",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "80*1PC",
+          "quantity": 14,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 50",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "80*1PC",
+          "quantity": 24,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 62.5",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "80/1PC",
+          "quantity": 88,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 75",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "80*1PC",
+          "quantity": 102,
+          "unit": ""
+        },
+        {
+          "name": "THYONORM 88",
+          "company": "Abbott Ltd (Thyonorm)",
+          "pack": "80*1PC",
+          "quantity": 39,
+          "unit": ""
+        },
+        {
+          "name": "APDROP PD E/D",
+          "company": "Ajanta Pharma",
+          "pack": "10ML",
+          "quantity": 27,
+          "unit": "PCS"
+        },
+        {
+          "name": "MET XL 25",
+          "company": "Ajanta Pharma",
+          "pack": "10*15",
+          "quantity": 39,
+          "unit": ""
+        },
+        {
+          "name": "MET XL 50",
+          "company": "Ajanta Pharma",
+          "pack": "10*15",
+          "quantity": 10,
+          "unit": ""
+        },
+        {
+          "name": "ALOES COMPOUND",
+          "company": "Alarsin",
+          "pack": "1*50*100T",
+          "quantity": 74,
+          "unit": "PCS"
+        },
+        {
+          "name": "ALURETIC TAB",
+          "company": "Alarsin",
+          "pack": "1*1",
+          "quantity": 24,
+          "unit": "PCS"
+        },
+        {
+          "name": "ARJIN TAB",
+          "company": "Alarsin",
+          "pack": "1*1",
+          "quantity": 5,
+          "unit": "PCS"
+        },
+        {
+          "name": "ASHWAGANDHA TAB (ALARSIN)",
+          "company": "Alarsin",
+          "pack": "1",
+          "quantity": 12,
+          "unit": "PCS"
+        },
+        {
+          "name": "BANGSHIL TAB",
+          "company": "Alarsin",
+          "pack": "1*50*100T",
+          "quantity": 70,
+          "unit": ""
+        },
+        {
+          "name": "BRAHMI TAB (ALARSIN)",
+          "company": "Alarsin",
+          "pack": "1*",
+          "quantity": 11,
+          "unit": "PCS"
+        },
+        {
+          "name": "D2D TAB",
+          "company": "Alarsin",
+          "pack": "1*1",
+          "quantity": 11,
+          "unit": "PCS"
+        },
+        {
+          "name": "DEKOFCYN",
+          "company": "Alarsin",
+          "pack": "1*",
+          "quantity": 10,
+          "unit": "PCS"
+        },
+        {
+          "name": "DEKOFCYN SYP",
+          "company": "Alarsin",
+          "pack": "1*",
+          "quantity": 11,
+          "unit": "PCS"
+        },
+        {
+          "name": "G 32",
+          "company": "Alarsin",
+          "pack": "1*50*100T",
+          "quantity": 176,
+          "unit": "PCS"
+        },
+        {
+          "name": "G 32 M/P",
+          "company": "Alarsin",
+          "pack": "1*1",
+          "quantity": 14,
+          "unit": "PCS"
+        },
+        {
+          "name": "LEPTADIN TAB",
+          "company": "Alarsin",
+          "pack": "50*100",
+          "quantity": 175,
+          "unit": "PCS"
+        },
+        {
+          "name": "LIV COMPOUND 100 TAB",
+          "company": "Alarsin",
+          "pack": "1*",
+          "quantity": 14,
+          "unit": "PCS"
+        },
+        {
+          "name": "LIV COMPOUND SYP",
+          "company": "Alarsin",
+          "pack": "1*",
+          "quantity": 9,
+          "unit": "PCS"
+        },
+        {
+          "name": "MYRON",
+          "company": "Alarsin",
+          "pack": "1*50*100T",
+          "quantity": 11,
+          "unit": ""
+        },
+        {
+          "name": "R COMPOUND",
+          "company": "Alarsin",
+          "pack": "1*50*100T",
+          "quantity": 23,
+          "unit": "PCS"
+        },
+        {
+          "name": "SHILAJIT TAB",
+          "company": "Alarsin",
+          "pack": "1*",
+          "quantity": 16,
+          "unit": "PCS"
+        },
+        {
+          "name": "REFRESH TEARS",
+          "company": "Allergan India",
+          "pack": "1X10",
+          "quantity": 122,
+          "unit": ""
+        },
+        {
+          "name": "BETT INJ 0.5ML",
+          "company": "Be Lifesciences",
+          "pack": "1BOX.",
+          "quantity": 44,
+          "unit": ""
+        },
+        {
+          "name": "CASCOPIN PEDREATIC SYP.",
+          "company": "Be Lifesciences",
+          "pack": "1*50ML",
+          "quantity": 518,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLO 650",
+          "company": "Be Lifesciences",
+          "pack": "32*24CS",
+          "quantity": 36,
+          "unit": "PCS"
+        },
+        {
+          "name": "DICLOTAL MR",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "10*10",
+          "quantity": 21,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAL P SYP",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "60ML",
+          "quantity": 364,
+          "unit": "PCS"
+        },
+        {
+          "name": "MEFTAL SPAS DROP",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "1X10ML",
+          "quantity": 5,
+          "unit": ""
+        },
+        {
+          "name": "MEFTAL SPAS SYP (MRP)",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "60ML",
+          "quantity": 229,
+          "unit": ""
+        },
+        {
+          "name": "MEFTAL SPAS TAB (MRP)",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "30*10",
+          "quantity": 699,
+          "unit": "PCS"
+        },
+        {
+          "name": "TusQ D X SYP (RED)",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "1X100",
+          "quantity": 1035,
+          "unit": ""
+        },
+        {
+          "name": "TusQ X SYP (GREEN)",
+          "company": "Blue Cross (Meftal) Laboratories",
+          "pack": "1X100",
+          "quantity": 55,
+          "unit": ""
+        },
+        {
+          "name": "AMLOPRESS 5",
+          "company": "Cipla",
+          "pack": "60*10",
+          "quantity": 40,
+          "unit": "PCS"
+        },
+        {
+          "name": "CIPLAR 10",
+          "company": "Cipla",
+          "pack": "100*10",
+          "quantity": 1275,
+          "unit": ""
+        },
+        {
+          "name": "CIPLAR 40",
+          "company": "Cipla",
+          "pack": "100*15",
+          "quantity": 581,
+          "unit": ""
+        },
+        {
+          "name": "CIPLAR LA 20",
+          "company": "Cipla",
+          "pack": "60*10",
+          "quantity": 825,
+          "unit": ""
+        },
+        {
+          "name": "CIPLAR LA 40",
+          "company": "Cipla",
+          "pack": "60*10",
+          "quantity": 366,
+          "unit": ""
+        },
+        {
+          "name": "FORACORT 200 R/C",
+          "company": "Cipla",
+          "pack": "10*1",
+          "quantity": 921,
+          "unit": "PCS"
+        },
+        {
+          "name": "FORACORT 400 RC",
+          "company": "Cipla",
+          "pack": "1*10",
+          "quantity": 524,
+          "unit": "PCS"
+        },
+        {
+          "name": "STON 1 B6 SYP",
+          "company": "Cipla",
+          "pack": "24*200ML",
+          "quantity": 185,
+          "unit": "PCS"
+        },
+        {
+          "name": "URIMAX D",
+          "company": "Cipla",
+          "pack": "10*15",
+          "quantity": 485,
+          "unit": ""
+        },
+        {
+          "name": "AEROCORT FORTE R/C",
+          "company": "Cipla",
+          "pack": "20*1CAP",
+          "quantity": 217,
+          "unit": ""
+        },
+        {
+          "name": "AEROCORT INHALER",
+          "company": "Cipla",
+          "pack": "20*1PC",
+          "quantity": 242,
+          "unit": ""
+        },
+        {
+          "name": "AEROCORT R/C",
+          "company": "Cipla",
+          "pack": "15*1CAP",
+          "quantity": 564,
+          "unit": ""
+        },
+        {
+          "name": "AMLOPRESS AT",
+          "company": "Cipla",
+          "pack": "60*15",
+          "quantity": 132,
+          "unit": ""
+        },
+        {
+          "name": "ASTHALIN INHALER",
+          "company": "Cipla",
+          "pack": "10*1PC",
+          "quantity": 21,
+          "unit": ""
+        },
+        {
+          "name": "ASTHALIN R/C",
+          "company": "Cipla",
+          "pack": "15*1PC",
+          "quantity": 163,
+          "unit": ""
+        },
+        {
+          "name": "ASTHALIN RESPULES",
+          "company": "Cipla",
+          "pack": "40*2.5ML",
+          "quantity": 5876,
+          "unit": ""
+        },
+        {
+          "name": "FULLFORM 200",
+          "company": "Cipla",
+          "pack": "1PH",
+          "quantity": 82,
+          "unit": ""
+        },
+        {
+          "name": "FULLFORM 400 R/C",
+          "company": "Cipla",
+          "pack": "1PH",
+          "quantity": 130,
+          "unit": ""
+        },
+        {
+          "name": "LEVOLIN INHALER",
+          "company": "Cipla",
+          "pack": "30P",
+          "quantity": 173,
+          "unit": ""
+        },
+        {
+          "name": "METOLAR XR 50",
+          "company": "Cipla",
+          "pack": "30*10",
+          "quantity": 155,
+          "unit": ""
+        },
+        {
+          "name": "NOVAMOX DROP",
+          "company": "Cipla",
+          "pack": "180 PC",
+          "quantity": 128,
+          "unit": ""
+        },
+        {
+          "name": "NOVAMOX SYP 30ML",
+          "company": "Cipla",
+          "pack": "120 PC",
+          "quantity": 597,
+          "unit": ""
+        },
+        {
+          "name": "NUTROLIN B PEDR TAB",
+          "company": "Cipla",
+          "pack": "10*10",
+          "quantity": 87,
+          "unit": ""
+        },
+        {
+          "name": "NUTROLIN B PLUS SYP",
+          "company": "Cipla",
+          "pack": "90*30M",
+          "quantity": 137,
+          "unit": ""
+        },
+        {
+          "name": "URIMAX 0.4 STRIP",
+          "company": "Cipla",
+          "pack": "40*15",
+          "quantity": 1970,
+          "unit": ""
+        },
+        {
+          "name": "ASTHALIN SYP 100ML",
+          "company": "Cipla (Spectra 1)",
+          "pack": "120PH",
+          "quantity": 796,
+          "unit": ""
+        },
+        {
+          "name": "CIPLOX D E/D",
+          "company": "Cipla (Spectra 1)",
+          "pack": "50 PC",
+          "quantity": 313,
+          "unit": ""
+        },
+        {
+          "name": "CIPLOX E/D",
+          "company": "Cipla (Spectra 1)",
+          "pack": "25PCS",
+          "quantity": 23,
+          "unit": ""
+        },
+        {
+          "name": "IBUGESIC PLUS TAB",
+          "company": "Cipla (Spectra 1)",
+          "pack": "50*20TB",
+          "quantity": 756,
+          "unit": ""
+        },
+        {
+          "name": "Ibugesic syp 60ML",
+          "company": "Cipla (Spectra 1)",
+          "pack": "180PC",
+          "quantity": 169,
+          "unit": ""
+        },
+        {
+          "name": "LODOZ-5",
+          "company": "Emerck",
+          "pack": "10*10",
+          "quantity": 15,
+          "unit": ""
+        },
+        {
+          "name": "ZIFI 100DT",
+          "company": "Fdc Ltd",
+          "pack": "1X10",
+          "quantity": 438,
+          "unit": ""
+        },
+        {
+          "name": "ZIFI 200 TAB",
+          "company": "Fdc Ltd",
+          "pack": "30X10",
+          "quantity": 3098,
+          "unit": ""
+        },
+        {
+          "name": "ZIFI 50 DT",
+          "company": "Fdc Ltd",
+          "pack": "1X10",
+          "quantity": 334,
+          "unit": ""
+        },
+        {
+          "name": "ZIFI CV 200",
+          "company": "Fdc Ltd",
+          "pack": "1BOX",
+          "quantity": 89,
+          "unit": ""
+        },
+        {
+          "name": "ZIFI O TAB",
+          "company": "Fdc Ltd",
+          "pack": "10*10",
+          "quantity": 222,
+          "unit": "PCS"
+        },
+        {
+          "name": "FUSIGEN OINT 05GM",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "1X5GM",
+          "quantity": 54,
+          "unit": ""
+        },
+        {
+          "name": "FUSIGEN OINT 10GM",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "10GM",
+          "quantity": 48,
+          "unit": "PCS"
+        },
+        {
+          "name": "MYLOXIN D GEL",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "30GM",
+          "quantity": 9,
+          "unit": ""
+        },
+        {
+          "name": "MYLOXIN D OINT",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "15GM",
+          "quantity": 43,
+          "unit": ""
+        },
+        {
+          "name": "MYLOXIN OIN 15GM",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "1X15GM",
+          "quantity": 54,
+          "unit": ""
+        },
+        {
+          "name": "VERTIDOM TAB",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "1X10",
+          "quantity": 76,
+          "unit": ""
+        },
+        {
+          "name": "VERTIGON",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "10*20",
+          "quantity": 344,
+          "unit": ""
+        },
+        {
+          "name": "VERTIGON FORTE",
+          "company": "Geno (Shaurya Respira)",
+          "pack": "10*10",
+          "quantity": 106,
+          "unit": ""
+        },
+        {
+          "name": "BRUPAL FORT",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "20X10",
+          "quantity": 329,
+          "unit": ""
+        },
+        {
+          "name": "BRUPAL KID",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "10X10",
+          "quantity": 1858,
+          "unit": ""
+        },
+        {
+          "name": "BRUPAL PLANE (MRP)",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "20X10",
+          "quantity": 1776,
+          "unit": ""
+        },
+        {
+          "name": "CYPON DROP",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "1X15ML",
+          "quantity": 195,
+          "unit": ""
+        },
+        {
+          "name": "CYPON TAB",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "10*10",
+          "quantity": 97,
+          "unit": ""
+        },
+        {
+          "name": "RESPIRA TAB",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "1X10",
+          "quantity": 52,
+          "unit": ""
+        },
+        {
+          "name": "TRICOBAL-OD",
+          "company": "Geno Pharma (Shakti Cypon)",
+          "pack": "1X10",
+          "quantity": 8,
+          "unit": ""
+        },
+        {
+          "name": "TELMA 40 (MRP)",
+          "company": "Glenmark (Telma)",
+          "pack": "10*10",
+          "quantity": 8,
+          "unit": ""
+        },
+        {
+          "name": "TELMA 20*",
+          "company": "Glenmark** (Telma*)",
+          "pack": "5*10",
+          "quantity": 22,
+          "unit": ""
+        },
+        {
+          "name": "TELMA 40* (MRP)",
+          "company": "Glenmark** (Telma*)",
+          "pack": "10*30",
+          "quantity": 1,
+          "unit": ""
+        },
+        {
+          "name": "TELMA AM * (MRP)",
+          "company": "Glenmark** (Telma*)",
+          "pack": "10*10",
+          "quantity": 222,
+          "unit": ""
+        },
+        {
+          "name": "TELMA H* (MRP)",
+          "company": "Glenmark** (Telma*)",
+          "pack": "10*10",
+          "quantity": 231,
+          "unit": ""
+        },
+        {
+          "name": "HEXIDINE 160ml MOUTHWASH",
+          "company": "Icpa",
+          "pack": "10*6",
+          "quantity": 22,
+          "unit": ""
+        },
+        {
+          "name": "THERMOSEAL REPAIR 100GM",
+          "company": "Icpa",
+          "pack": "ICPA",
+          "quantity": 162,
+          "unit": "PCS"
+        },
+        {
+          "name": "THERMOSEAL REPAIR 50GM",
+          "company": "Icpa",
+          "pack": "ICPA",
+          "quantity": 83,
+          "unit": "PCS"
+        },
+        {
+          "name": "FOLITRAX 10",
+          "company": "Ipca (Hcqs)",
+          "pack": "1X10",
+          "quantity": 94,
+          "unit": ""
+        },
+        {
+          "name": "FOLITRAX 15",
+          "company": "Ipca (Hcqs)",
+          "pack": "20X10",
+          "quantity": 134,
+          "unit": ""
+        },
+        {
+          "name": "FOLITRAX 2.5",
+          "company": "Ipca (Hcqs)",
+          "pack": "1X10",
+          "quantity": 217,
+          "unit": ""
+        },
+        {
+          "name": "FOLITRAX 5 TAB",
+          "company": "Ipca (Hcqs)",
+          "pack": "1X10",
+          "quantity": 86,
+          "unit": ""
+        },
+        {
+          "name": "HCQS 200",
+          "company": "Ipca (Hcqs)",
+          "pack": "10*10",
+          "quantity": 213,
+          "unit": ""
+        },
+        {
+          "name": "HCQS 300",
+          "company": "Ipca (Hcqs)",
+          "pack": "10*10",
+          "quantity": 28,
+          "unit": ""
+        },
+        {
+          "name": "HCQS 400",
+          "company": "Ipca (Hcqs)",
+          "pack": "10*10",
+          "quantity": 9,
+          "unit": ""
+        },
+        {
+          "name": "SAAZ TAB",
+          "company": "Ipca (Hcqs)",
+          "pack": "6X10",
+          "quantity": 678,
+          "unit": ""
+        },
+        {
+          "name": "SAAZ-DS",
+          "company": "Ipca (Hcqs)",
+          "pack": "6X10",
+          "quantity": 341,
+          "unit": ""
+        },
+        {
+          "name": "LARIAGO 5ML INJ.",
+          "company": "Ipca (Lariago)",
+          "pack": "100X5ML",
+          "quantity": 271,
+          "unit": ""
+        },
+        {
+          "name": "LARIAGO DS",
+          "company": "Ipca (Lariago)",
+          "pack": "20X5",
+          "quantity": 510,
+          "unit": ""
+        },
+        {
+          "name": "LARIAGO SYP",
+          "company": "Ipca (Lariago)",
+          "pack": "1X120",
+          "quantity": 376,
+          "unit": ""
+        },
+        {
+          "name": "LARIAGO TAB",
+          "company": "Ipca (Lariago)",
+          "pack": "25X10",
+          "quantity": 4232,
+          "unit": ""
+        },
+        {
+          "name": "LARIAGO VOIL (MRP)",
+          "company": "Ipca (Lariago)",
+          "pack": "15X30ML",
+          "quantity": 368,
+          "unit": ""
+        },
+        {
+          "name": "LUMERAX 20",
+          "company": "Ipca (Lariago)",
+          "pack": "5*10",
+          "quantity": 86,
+          "unit": "PCS"
+        },
+        {
+          "name": "LUMERAX 40",
+          "company": "Ipca (Lariago)",
+          "pack": "5X10",
+          "quantity": 37,
+          "unit": ""
+        },
+        {
+          "name": "LUMERAX 60",
+          "company": "Ipca (Lariago)",
+          "pack": "5*10",
+          "quantity": 36,
+          "unit": "PCS"
+        },
+        {
+          "name": "LUMERAX 80",
+          "company": "Ipca (Lariago)",
+          "pack": "5*10",
+          "quantity": 172,
+          "unit": ""
+        },
+        {
+          "name": "LUMEREX SYP 30ML",
+          "company": "Ipca (Lariago)",
+          "pack": "30ML",
+          "quantity": 20,
+          "unit": "PCS"
+        },
+        {
+          "name": "MALIRID DS",
+          "company": "Ipca (Lariago)",
+          "pack": "20*10",
+          "quantity": 262,
+          "unit": "PCS"
+        },
+        {
+          "name": "MALIRID TAB",
+          "company": "Ipca (Lariago)",
+          "pack": "20*10",
+          "quantity": 287,
+          "unit": "PCS"
+        },
+        {
+          "name": "RAPITHER AB 2ML",
+          "company": "Ipca (Lariago)",
+          "pack": "120*2ML",
+          "quantity": 2798,
+          "unit": "PCS"
+        },
+        {
+          "name": "PERINORM SYP 60ML",
+          "company": "Ipca (Perinorm)",
+          "pack": "120*60ML",
+          "quantity": 467,
+          "unit": ""
+        },
+        {
+          "name": "PERINORM TAB",
+          "company": "Ipca (Perinorm)",
+          "pack": "30*10",
+          "quantity": 6828,
+          "unit": ""
+        },
+        {
+          "name": "CILACAR TM 25",
+          "company": "J.B Chemicals",
+          "pack": "10*10",
+          "quantity": 4,
+          "unit": "PCS"
+        },
+        {
+          "name": "RAB D CAP",
+          "company": "Klab",
+          "pack": "10*15",
+          "quantity": 67,
+          "unit": "PCS"
+        },
+        {
+          "name": "ROBINAXOL",
+          "company": "Klab",
+          "pack": "10*10",
+          "quantity": 140,
+          "unit": "PCS"
+        },
+        {
+          "name": "ROBINAXOL D",
+          "company": "Klab",
+          "pack": "10*10",
+          "quantity": 438,
+          "unit": "PCS"
+        },
+        {
+          "name": "VERMISOL 50",
+          "company": "Klab",
+          "pack": "50*1",
+          "quantity": 3,
+          "unit": "PCS"
+        },
+        {
+          "name": "CALDIKIND-PLUS CAP",
+          "company": "Mankind (Discovery)",
+          "pack": "6*10",
+          "quantity": 86,
+          "unit": "PCS"
+        },
+        {
+          "name": "DOLOKIND MR TAB",
+          "company": "Mankind (Discovery)",
+          "pack": "6*10",
+          "quantity": 1,
+          "unit": "PCS"
+        },
+        {
+          "name": "GLIMESTAR PM2",
+          "company": "Mankind (Discovery)",
+          "pack": "6*10",
+          "quantity": 13,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAHACEF 200 SYP",
+          "company": "Mankind (Discovery)",
+          "pack": "1*60ML",
+          "quantity": 58,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAHACEF DROP",
+          "company": "Mankind (Discovery)",
+          "pack": "1*10ML",
+          "quantity": 37,
+          "unit": "PCS"
+        },
+        {
+          "name": "MAHACEF DRY SYP",
+          "company": "Mankind (Discovery)",
+          "pack": "1X30ML",
+          "quantity": 49,
+          "unit": ""
+        },
+        {
+          "name": "PANTAKIND FLUX CAP",
+          "company": "Mankind (Discovery)",
+          "pack": "3*10",
+          "quantity": 10,
+          "unit": "PCS"
+        },
+        {
+          "name": "MOXIKIND-CV DROPS",
+          "company": "Mankind (Pharma)",
+          "pack": "10*1",
+          "quantity": 24,
+          "unit": "PCS"
+        },
+        {
+          "name": "NUFORCE 200 TAB (MRP)",
+          "company": "Mankind (Pharma)",
+          "pack": "15*10",
+          "quantity": -17,
+          "unit": ""
+        },
+        {
+          "name": "NUROKIND AMP 1ML (MRP)",
+          "company": "Mankind (Pharma)",
+          "pack": "1*1",
+          "quantity": 94,
+          "unit": "PCS"
+        },
+        {
+          "name": "PLACIDA TAB",
+          "company": "Mankind (Pharma)",
+          "pack": "12*10",
+          "quantity": 8,
+          "unit": "PCS"
+        },
+        {
+          "name": "UNWANTED KIT",
+          "company": "Mankind (Pharma)",
+          "pack": "40*1",
+          "quantity": 153,
+          "unit": "PCS"
+        },
+        {
+          "name": "CALVIT 12 VOIL",
+          "company": "Marc Laboratories",
+          "pack": "12*25",
+          "quantity": 3191,
+          "unit": ""
+        },
+        {
+          "name": "CONCOR 2.5",
+          "company": "Marc Laboratories",
+          "pack": "10*10",
+          "quantity": 101,
+          "unit": "PCS"
+        },
+        {
+          "name": "CONCOR 5",
+          "company": "Marc Laboratories",
+          "pack": "10*10",
+          "quantity": 298,
+          "unit": "PCS"
+        },
+        {
+          "name": "CONCOR AM 2.5",
+          "company": "Marc Laboratories",
+          "pack": "1*1",
+          "quantity": 82,
+          "unit": ""
+        },
+        {
+          "name": "CONCOR AM 5",
+          "company": "Marc Laboratories",
+          "pack": "1X10",
+          "quantity": 195,
+          "unit": ""
+        },
+        {
+          "name": "CONCOR COR 1.25 TAB",
+          "company": "Marc Laboratories",
+          "pack": "10*10",
+          "quantity": 89,
+          "unit": "PCS"
+        },
+        {
+          "name": "CONCOR PLUS TAB",
+          "company": "Marc Laboratories",
+          "pack": "10*10",
+          "quantity": 45,
+          "unit": "PCS"
+        },
+        {
+          "name": "CONCOR T 2.5 TAB",
+          "company": "Marc Laboratories",
+          "pack": "10*10",
+          "quantity": 43,
+          "unit": "PCS"
+        },
+        {
+          "name": "CONCOR T 5 TAB",
+          "company": "Marc Laboratories",
+          "pack": "10*10",
+          "quantity": 15,
+          "unit": "PCS"
+        },
+        {
+          "name": "APTAMIL GOLD-1",
+          "company": "Nutricia",
+          "pack": "400GM",
+          "quantity": 17,
+          "unit": "PCS"
+        },
+        {
+          "name": "DEXOLAC NO 1",
+          "company": "Nutricia",
+          "pack": "30*400GM",
+          "quantity": 105,
+          "unit": "PCS"
+        },
+        {
+          "name": "DEXOLAC NO 2",
+          "company": "Nutricia",
+          "pack": "1*500",
+          "quantity": 59,
+          "unit": "PCS"
+        },
+        {
+          "name": "DEXOLAC NO 3",
+          "company": "Nutricia",
+          "pack": "400GM",
+          "quantity": 9,
+          "unit": "PCS"
+        },
+        {
+          "name": "Zerolac 200",
+          "company": "Raptakos (Zerolac)",
+          "pack": "200GM",
+          "quantity": 235,
+          "unit": ""
+        },
+        {
+          "name": "ZEROLAC 400",
+          "company": "Raptakos (Zerolac)",
+          "pack": "1X400",
+          "quantity": 270,
+          "unit": ""
+        },
+        {
+          "name": "HEPTA GLOBINE 300ML",
+          "company": "Raptakos Brett & Co-Milk",
+          "pack": "1X300ML",
+          "quantity": 13,
+          "unit": ""
+        },
+        {
+          "name": "NEOPEPTIN DROP",
+          "company": "Raptakos Brett & Co-Milk",
+          "pack": "1X15ML",
+          "quantity": 162,
+          "unit": ""
+        },
+        {
+          "name": "Threptin 275GM",
+          "company": "Raptakos Brett & Co-Milk",
+          "pack": "1X275G",
+          "quantity": 231,
+          "unit": ""
+        },
+        {
+          "name": "Threptin LITE",
+          "company": "Raptakos Brett & Co-Milk",
+          "pack": "24*275G",
+          "quantity": 80,
+          "unit": ""
+        },
+        {
+          "name": "ZYTEE RB",
+          "company": "Raptakos Brett & Co-Milk",
+          "pack": "10GM",
+          "quantity": 217,
+          "unit": "PCS"
+        },
+        {
+          "name": "CB COUNT TAB (MRP)",
+          "company": "Seagull Pharma",
+          "pack": "10*10",
+          "quantity": 83,
+          "unit": "PCS"
+        },
+        {
+          "name": "NIMPREX",
+          "company": "Seagull Pharma",
+          "pack": "24X15",
+          "quantity": 1555,
+          "unit": ""
+        },
+        {
+          "name": "NIMPREX P TAB",
+          "company": "Seagull Pharma",
+          "pack": "24X15",
+          "quantity": 2719,
+          "unit": ""
+        },
+        {
+          "name": "NVM TAB",
+          "company": "Seagull Pharma",
+          "pack": "10*30",
+          "quantity": 141,
+          "unit": ""
+        },
+        {
+          "name": "SUPERSPAS AMP (BOX)",
+          "company": "Seagull Pharma",
+          "pack": "1BOX",
+          "quantity": 236,
+          "unit": ""
+        },
+        {
+          "name": "SUPERSPAS DROPS",
+          "company": "Seagull Pharma",
+          "pack": "1PC",
+          "quantity": 15,
+          "unit": "PCS"
+        },
+        {
+          "name": "SUPERSPAS GEL SUSP",
+          "company": "Seagull Pharma",
+          "pack": "200ML",
+          "quantity": 6,
+          "unit": "PCS"
+        },
+        {
+          "name": "SUPERSPAS TAB",
+          "company": "Seagull Pharma",
+          "pack": "15*10",
+          "quantity": 472,
+          "unit": ""
+        },
+        {
+          "name": "SUPERSPAS VIAL",
+          "company": "Seagull Pharma",
+          "pack": "20ML",
+          "quantity": 74,
+          "unit": "PCS"
+        },
+        {
+          "name": "EPIVAL SYP",
+          "company": "Sun (Susten)",
+          "pack": "1X200",
+          "quantity": 45,
+          "unit": ""
+        },
+        {
+          "name": "EPIVAL TAB",
+          "company": "Sun (Susten)",
+          "pack": "10 STR",
+          "quantity": 234,
+          "unit": ""
         }
       ]
     }

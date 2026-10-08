@@ -46,34 +46,37 @@ Both the directory card and the store page read from that file, so they can neve
 {
   "slug": "radhey-medicals",
   "name": "Radhey Medicals",
-  "address": "123 Main Road, Example City, State",
-  "premises": "123 Main Road, Example City, State — 226001",
+  "address": "B-2 First Floor, Surya Medicine Market, Latouche Road, Lucknow",
+  "premises": "B-2 First Floor, Surya Medicine Market, Latouche Road, Lucknow, Uttar Pradesh",
   "license": "XYZ123",
+  "gstin": "09ADVPA7406Q1ZT",
   "pharmacist": { "name": "Example Pharmacist", "registration": "UPSPC/00000" },
-  "contact": "+91 98765 43210",
-  "last_updated": "2026-10-08",
+  "phones": ["0522-4230735", "9161740152"],
+  "email": "owner@example.com",
+  "last_updated": "2026-10-07",
   "items": [
-    {
-      "name": "Paracetamol",
-      "brand": "ACME Pharma",
-      "form": "Tablet",
-      "strength": "500 mg",
-      "batch": "B321",
-      "mfg": "2025-04",
-      "expiry": "2027-04",
-      "quantity": 120,
-      "mrp": "₹60",
-      "remarks": "OTC"
-    }
+    { "name": "PAN 40", "company": "Alkem (Pan)", "pack": "20*10", "quantity": 4928, "unit": "PCS" }
   ]
 }
 ```
 
-Status badges are derived, not stored:
+### Item columns are data-driven
 
-- **expiry** — `Expired`, `Expiring soon` (within 5 months) or `Valid`
-- **freshness** — `Up to date`, `Update due` (over 7 days) or `Update overdue` (over 14 days),
-  reflecting the weekly update requirement
+The stock table renders only the columns the data actually has, so a store that tracks batch and
+expiry gets those columns and one that doesn't isn't left with a table of dashes. Recognised item
+fields, in display order:
+
+`name`, `company`, `brand`, `pack`, `batch`, `mfg`, `expiry`, `quantity`, `mrp`, `remarks`
+
+`name` is always shown. `unit` is kept in the data but not rendered — it carries no information
+when almost every row is the same value.
+
+Derived badges:
+
+- **freshness** (always) — `Up to date`, `Update due` (over 7 days) or `Update overdue`
+  (over 14 days), reflecting the weekly update requirement
+- **expiry** (only when items carry `expiry`) — `Expired`, `Expiring soon` (within 5 months)
+  or `Valid`
 
 ## Adding a store
 
@@ -83,10 +86,19 @@ Status badges are derived, not stored:
 
 ## Hosting
 
-Plain static HTML/CSS/JS — push to GitHub and enable Pages on `main` (root). `private/` is
-gitignored, so reference scans never reach the repository or the published site.
+Plain static HTML/CSS/JS with no build step — `npm` is only used to run the local dev server, so
+GitHub Pages can serve the repository as-is for free.
+
+One caveat: Pages on a **public** repo makes the whole repository public too — including this
+README and `server.js`. If the delivery details should stay private, either run Pages from a
+private repo (requires a paid GitHub plan) or publish only the site files to Pages from a private
+repo via a GitHub Actions workflow.
+
+`private/` is gitignored, so the reference scans never reach the repository or the published site
+either way.
 
 ## Notes
 
-- Sample data is fictional and for demonstration only.
+- Item quantities published here are deliberately offset from the source stock report.
 - The store page needs JavaScript, since the listing is rendered from `stores.json` at runtime.
+- `license` and `pharmacist` are still placeholders — the stock report does not contain them.

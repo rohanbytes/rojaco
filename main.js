@@ -23,7 +23,7 @@ function storeCard(store, index) {
 
       <dl class="store-facts">
         <div><dt>Licence</dt><dd>${escapeHtml(store.license)}</dd></div>
-        <div><dt>Items listed</dt><dd>${itemCount}</dd></div>
+        <div><dt>Items listed</dt><dd>${itemCount.toLocaleString('en-IN')}</dd></div>
         <div><dt>Last updated</dt><dd>${escapeHtml(formatDate(store.last_updated))}</dd></div>
       </dl>
 
@@ -40,19 +40,32 @@ const ctaCard = `
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
     </span>
     <h3>List your pharmacy</h3>
-    <p class="store-address">Add an entry to <code>data/stores.json</code> and your public listing goes live on the next push.</p>
+    <p class="store-address">Send us your shop details and your current stock list — we'll put your listing live and keep it updated.</p>
     <div class="store-card-foot">
-      <a class="view-link" href="#how">See the steps ${ARROW}</a>
+      <a class="view-link" href="#contact">Get started ${ARROW}</a>
     </div>
   </article>`;
 
+/** Built once per store — rebuilding it per keystroke is slow on large listings. */
+const haystacks = new WeakMap();
+
+function haystack(store) {
+  let value = haystacks.get(store);
+  if (value === undefined) {
+    value = [store.name, store.address, store.premises, store.license, store.gstin, store.pharmacist?.name]
+      .concat((store.items ?? []).flatMap((item) => [item.name, item.company, item.brand, item.batch]))
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
+    haystacks.set(store, value);
+  }
+  return value;
+}
+
 function matches(store, query) {
   if (!query) return true;
-  const haystack = [store.name, store.address, store.license, store.pharmacist?.name, store.premises]
-    .concat((store.items ?? []).flatMap((item) => [item.name, item.brand, item.batch]))
-    .join(' ')
-    .toLowerCase();
-  return query.split(/\s+/).every((term) => haystack.includes(term));
+  const hay = haystack(store);
+  return query.split(/\s+/).every((term) => hay.includes(term));
 }
 
 function render(stores, query = '') {
@@ -81,7 +94,7 @@ async function init() {
 
     if (!stores.length) {
       grid.setAttribute('aria-busy', 'false');
-      grid.innerHTML = `<div class="state"><strong>No stores published yet</strong>Add your first pharmacy to <code>data/stores.json</code>.</div>`;
+      grid.innerHTML = `<div class="state"><strong>No stores published yet</strong>Listings will appear here as pharmacies are onboarded.</div>`;
       return;
     }
 
@@ -99,7 +112,7 @@ async function init() {
     grid.innerHTML = `
       <div class="state">
         <strong>Couldn't load the store directory</strong>
-        ${escapeHtml(error.message)} — if you opened this file directly, run <code>npm run dev</code> instead.
+        Please refresh the page. If this keeps happening, get in touch and we'll sort it out.
       </div>`;
   }
 }

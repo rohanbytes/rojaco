@@ -1251,16 +1251,23 @@ code {
 
 .doc-meta {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1px;
   margin: 0;
-  background: var(--line);
-  border-bottom: 1px solid var(--line);
+  /* Hairlines come from each cell's ring, not a background showing through a
+     gap — otherwise a partly-filled last row leaves a grey block. */
+  background: var(--surface);
 }
 
 .doc-meta > div {
   background: var(--surface);
-  padding: 1.15rem clamp(1.5rem, 4vw, 2.25rem);
+  box-shadow: 0 0 0 1px var(--line);
+  padding: 1.15rem clamp(1.25rem, 4vw, 2.25rem);
+}
+
+/* Long values (an email, say) get two tracks so they don't break mid-word. */
+.doc-meta .meta-wide {
+  grid-column: span 2;
 }
 
 .doc-meta dt {
@@ -1274,7 +1281,7 @@ code {
 .doc-meta dd {
   margin: 0.35rem 0 0;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   overflow-wrap: anywhere;
 }
 
@@ -1307,6 +1314,11 @@ code {
   margin-bottom: 0.8rem;
 }
 
+#scroll-hint {
+  margin-left: 0.4rem;
+  white-space: nowrap;
+}
+
 .table-scroll {
   overflow-x: auto;
   border: 1px solid var(--line);
@@ -1318,7 +1330,8 @@ code {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.875rem;
-  min-width: 920px;
+  /* Set from the data by store.js, so a 4-column listing does not scroll. */
+  min-width: var(--stock-min-width, 920px);
 }
 
 .stock-table thead th {
@@ -1363,6 +1376,7 @@ code {
 }
 
 .stock-table .cell-item {
+  display: block;
   font-weight: 650;
   color: var(--ink);
   white-space: nowrap;
@@ -1498,7 +1512,7 @@ code {
   }
 
   .doc-meta {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0;
     background: #fff;
     border-bottom: 1px solid #000;
@@ -1506,6 +1520,7 @@ code {
 
   .doc-meta > div {
     padding-block: 8pt;
+    box-shadow: none;
   }
 
   .doc-meta dt {
@@ -1523,11 +1538,12 @@ code {
     border-radius: 0;
   }
 
-  /* Fixed widths stop the wide screen table from running off the page. */
+  /* Columns are data-driven, so let the table lay itself out; wrapping is
+     already enabled below, which is what kept it on the page. */
   .stock-table {
     min-width: 0;
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
     font-size: 8.5pt;
     border: 1px solid #000;
   }
@@ -1536,18 +1552,8 @@ code {
   .stock-table td {
     white-space: normal;
     overflow-wrap: break-word;
-    padding: 5pt 4pt;
+    padding: 4pt;
   }
-
-  .stock-table :is(th, td):nth-child(1) { width: 15%; }
-  .stock-table :is(th, td):nth-child(2) { width: 15%; }
-  .stock-table :is(th, td):nth-child(3) { width: 8%; }
-  .stock-table :is(th, td):nth-child(4) { width: 10%; }
-  .stock-table :is(th, td):nth-child(5) { width: 10%; }
-  .stock-table :is(th, td):nth-child(6) { width: 13%; }
-  .stock-table :is(th, td):nth-child(7) { width: 6%; }
-  .stock-table :is(th, td):nth-child(8) { width: 8%; }
-  .stock-table :is(th, td):nth-child(9) { width: 15%; }
 
   .stock-table thead {
     display: table-header-group;
@@ -1579,6 +1585,11 @@ code {
     width: auto;
     border: 1px solid #777;
     background: #f0f0f0 !important;
+  }
+
+  /* 700+ rows: repeat the header and keep the summary with the table. */
+  .stock-table tfoot {
+    display: table-row-group;
   }
 
   .stock-table tbody tr {

@@ -49,7 +49,7 @@
     <noscript>
       <div class="state" style="margin-bottom:2rem">
         <strong>JavaScript is required</strong>
-        This listing is rendered from <code>data/stores.json</code>. Enable JavaScript to view it.
+        Please enable JavaScript to view this stock listing.
       </div>
     </noscript>
 
@@ -78,30 +78,22 @@
             <h2>Stock listing</h2>
             <p id="stock-summary">—</p>
           </div>
-          <span class="muted no-print" id="scroll-hint" hidden style="font-size:.8rem">Scroll sideways for all columns →</span>
+          <div class="search-field no-print">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="item-search" type="search" placeholder="Find a medicine…" aria-label="Search items in this listing" autocomplete="off">
+          </div>
         </div>
 
-        <p class="table-note" id="stock-caption">Items held on the licensed premises, declared as per the Food Safety &amp; Drug Administration circular.</p>
+        <p class="table-note" id="stock-caption">
+          Items held on the licensed premises, declared as per the Food Safety &amp; Drug Administration circular.
+          <span class="no-print" id="scroll-hint" hidden>Scroll sideways for all columns →</span>
+        </p>
 
         <div class="table-scroll" id="table-scroll">
           <table class="stock-table" aria-describedby="stock-caption">
-            <thead>
-              <tr>
-                <th scope="col">Item</th>
-                <th scope="col">Brand / Manufacturer</th>
-                <th scope="col">Batch</th>
-                <th scope="col">Mfg</th>
-                <th scope="col">Expiry</th>
-                <th scope="col">Status</th>
-                <th scope="col" class="num">Qty</th>
-                <th scope="col" class="num">MRP</th>
-                <th scope="col">Remarks</th>
-              </tr>
-            </thead>
+            <thead id="stock-head"></thead>
             <tbody id="stock-body"></tbody>
-            <tfoot>
-              <tr><td colspan="9" id="stock-total">—</td></tr>
-            </tfoot>
+            <tfoot id="stock-foot"></tfoot>
           </table>
         </div>
       </section>
@@ -126,7 +118,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div>© 2026 Rojaco · Sample MVP, demo data only</div>
+      <div>© 2026 Rojaco · Published stock listings for retail pharmacies</div>
       <nav aria-label="Footer">
         <a href="../../#requirements">What's required</a>
         <a href="../../#stores">Stores</a>
