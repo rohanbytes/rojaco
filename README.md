@@ -29,13 +29,25 @@ No install step — there are no dependencies.
 index.html                     home page and store directory
 stores/<slug>/index.html       per-store listing (a thin shell; data comes from JSON)
 data/stores.json               the only file you edit to update a listing
-styles.css                     design system, incl. dark mode and print styles
+styles.css                     design system, incl. theming and print styles
 lib.js                         shared data loading, date and status helpers
+theme.js                       light/dark toggle
 main.js                        home page: directory + search
 store.js                       store page: renders a listing from stores.json
 server.js                      dev server with live reload
 private/                       source scans and reference docs — gitignored, never served
 ```
+
+## Theming
+
+The header has a light/dark toggle. It defaults to the visitor's OS setting and keeps following it
+until they pick a theme explicitly, at which point the choice is stored in `localStorage` under
+`rojaco-theme`.
+
+Every light/dark difference lives in the two token blocks at the top of `styles.css` — `:root` and
+`:root[data-theme="dark"]` — so components never branch on theme. A small inline script in each
+page's `<head>` applies the theme before first paint to avoid a flash. Printing is always forced to
+black on white, whichever theme is on screen.
 
 ## Updating a listing
 
