@@ -1,85 +1,225 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Rojaco — Store stock listings for medical retailers</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rojaco — Public stock listings for retail pharmacies</title>
+  <meta name="description" content="Rojaco helps retail pharmacies publish their licence, pharmacist, premises and weekly stock details on a public page — printable and ready for inspection.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M13 7h6v6h6v6h-6v6h-6v-6H7v-6h6z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <div class="brand-row">
-        <img src="photo_6215346783383130910_y.jpg" alt="Rojaco" class="brand-logo">
-        <div>
-          <h1 class="brand">Rojaco</h1>
-          <div class="brand-sub">Retail medical store stock listings — government friendly, printable</div>
-        </div>
-      </div>
-      <nav class="nav">
-        <a href="#stores" class="nav-link">Stores</a>
-        <a href="#how" class="nav-link">How it works</a>
-        <a href="#contact" class="nav-link">Contact</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 3h5v5.5H20v5h-5.5V19h-5v-5.5H4v-5h5.5z"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Rojaco</span>
+          <span class="brand-sub">Pharmacy stock listings</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#requirements">What's required</a>
+        <a href="#stores">Stores</a>
+        <a href="#how">How it works</a>
       </nav>
+
+      <a class="btn btn-primary btn-sm" href="#stores">Browse listings</a>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
-      <div class="container hero-inner">
+      <div class="wrap hero-inner">
         <div class="hero-copy">
-          <h2>Make your store stock visible, verifiable and printable</h2>
-          <p class="lead">Rojaco helps retail medical shops publish weekly stock listings in the format required by authorities. No backend — edit a data file and push to GitHub.</p>
+          <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> UP FSDA order FS/SD/A/O/2026-27/3208</p>
+
+          <h1>Your pharmacy's stock list, <span class="accent">public and inspection-ready</span>.</h1>
+
+          <p class="lead">
+            Every retail pharmacy must publish its licence number, appointed pharmacist, licensed
+            premises and stock details on a public website — updated weekly. Rojaco gives you that
+            page in minutes. Edit one data file, push, done.
+          </p>
+
           <div class="cta-row">
-            <a class="btn primary" href="#stores">View sample store</a>
-            <a class="btn ghost" href="#how">Learn more</a>
+            <a class="btn btn-primary" href="#stores">
+              See a live listing
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#how">How it works</a>
+          </div>
+
+          <dl class="stats">
+            <div>
+              <dt>1 Nov 2026</dt>
+              <dd>Compliance deadline</dd>
+            </div>
+            <div>
+              <dt>Weekly</dt>
+              <dd>Required update cadence</dd>
+            </div>
+            <div>
+              <dt>₹0</dt>
+              <dd>Hosting cost on GitHub&nbsp;Pages</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual">
+          <div class="doc-mock" aria-hidden="true">
+            <div class="doc-mock-bar">
+              <div class="doc-mock-dots"><i></i><i></i><i></i></div>
+              <div class="doc-mock-url">rojaco.in/stores/radhey-medicals</div>
+            </div>
+            <div class="doc-mock-body">
+              <div class="doc-mock-head">
+                <div>
+                  <strong>Radhey Medicals</strong>
+                  <span>Licence XYZ123 · Updated 8 Oct 2026</span>
+                </div>
+                <span class="pill pill-ok">Compliant</span>
+              </div>
+              <table>
+                <thead>
+                  <tr><th>Item</th><th>Batch</th><th>Expiry</th><th>Qty</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Paracetamol 500 mg</td><td>B321</td><td>04/2027</td><td>120</td></tr>
+                  <tr><td>Amoxicillin 250 mg</td><td>A112</td><td>12/2026</td><td>60</td></tr>
+                  <tr><td>Cough Syrup 100 ml</td><td>C778</td><td>03/2028</td><td>30</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-        <div class="hero-visual">
-          <img src="photo_6215346783383130911_y.jpg" alt="sample" loading="lazy">
+      </div>
+    </section>
+
+    <section class="band" id="requirements">
+      <div class="wrap band-grid">
+        <div>
+          <span class="kicker">The order, in plain terms</span>
+          <h2>Four things every listing must show</h2>
+          <p class="muted" style="margin-top:.75rem">
+            Office Order FS/SD/A/O/2026-27/838 directs all retail pharmacies to maintain a public
+            website with these details, kept current week to week. Hospital pharmacies must also
+            display a price list based on actual purchase and sale rates.
+          </p>
+          <div class="deadline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <span><strong>Enforcement begins 1 November 2026.</strong> Drug inspectors are directed to verify compliance within their jurisdiction.</span>
+          </div>
+        </div>
+
+        <ul class="requirements">
+          <li>
+            <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg></span>
+            <div><strong>Licence number</strong><span>Your drug sale licence, displayed verbatim.</span></div>
+          </li>
+          <li>
+            <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg></span>
+            <div><strong>Appointed pharmacist</strong><span>Name and registration of the pharmacist on record.</span></div>
+          </li>
+          <li>
+            <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg></span>
+            <div><strong>Licensed premises</strong><span>The address the licence was issued against.</span></div>
+          </li>
+          <li>
+            <span class="tick" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 17.5 20 6.5"/></svg></span>
+            <div><strong>Stock details</strong><span>Item, batch, expiry, quantity and MRP — weekly.</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="stores" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Directory</span>
+            <h2>Published stores</h2>
+            <p>Each store gets its own shareable, printable page. Search by store name or by any item they stock.</p>
+          </div>
+          <div class="search-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input id="search" type="search" placeholder="Search stores or items…" aria-label="Search stores or items" autocomplete="off">
+          </div>
+        </div>
+
+        <div id="store-grid" class="store-grid" aria-busy="true">
+          <div class="skeleton-card"></div>
+          <div class="skeleton-card"></div>
+        </div>
+
+        <p id="search-status" class="muted" role="status" aria-live="polite" style="margin-top:1.25rem"></p>
+      </div>
+    </section>
+
+    <section id="how" class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="kicker">How it works</span>
+            <h2>No backend. No subscription. No lock-in.</h2>
+            <p>Rojaco is a static site. Your data is a single JSON file you own, in a repository you control.</p>
+          </div>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <h3>Add your store</h3>
+            <p>Describe your pharmacy once in <code>data/stores.json</code> — licence, pharmacist, premises and contact.</p>
+          </li>
+          <li>
+            <h3>Update stock weekly</h3>
+            <p>Edit the <code>items</code> list with item, batch, expiry, quantity and MRP. Commit and push.</p>
+          </li>
+          <li>
+            <h3>Share the link</h3>
+            <p>Your page goes live at <code>/stores/&lt;slug&gt;/</code> on GitHub Pages, or on your own domain.</p>
+          </li>
+          <li>
+            <h3>Print for inspection</h3>
+            <p>The page is styled for A4. Hit print and hand over a clean, signed stock statement.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="wrap" id="contact">
+      <div class="cta-panel">
+        <h2>Need this for your pharmacy?</h2>
+        <p>Admin panel, CSV import, weekly Google Sheets sync, Hindi listings and bulk onboarding are all on the roadmap. Tell us what would help most.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:hello@rojaco.in">Get in touch</a>
+          <a class="btn btn-ghost" href="#stores">See an example first</a>
         </div>
       </div>
     </section>
-
-    <section id="stores" class="container card-section">
-      <div class="section-header">
-        <h3>Stores</h3>
-        <div class="search-wrap">
-          <input id="search" class="search" placeholder="Search stores or items…" aria-label="Search stores">
-        </div>
-      </div>
-
-      <div id="store-grid" class="store-grid">
-        <!-- store cards injected by JS -->
-      </div>
-
-      <p class="muted small">This is an MVP sample — store pages are static HTML and generated from JSON data. Each store gets a URL you can share or point a custom domain at.</p>
-    </section>
-
-    <section id="how" class="container card">
-      <h3>How the MVP works</h3>
-      <ol>
-        <li>Store data lives in <code>data/stores.json</code>. To update stock: edit the store's <code>items</code> list and push to GitHub.</li>
-        <li>Each store has a static page at <code>stores/&lt;slug&gt;/</code> ready to print for authorities.</li>
-        <li>No server required — host on GitHub Pages.</li>
-      </ol>
-    </section>
-
-    <section id="contact" class="container card">
-      <h3>Contact / Next steps</h3>
-      <p class="muted">Want an admin panel, CSV import, weekly sync with Google Sheets, or multi-language support? I can add those next.</p>
-    </section>
-
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© Rojaco — sample MVP</div>
-      <div class="muted">Designed for clarity and printability • Last sample update: 2026-10-08</div>
+    <div class="wrap footer-inner">
+      <div>© 2026 Rojaco · Sample MVP, demo data only</div>
+      <nav aria-label="Footer">
+        <a href="#requirements">What's required</a>
+        <a href="#stores">Stores</a>
+        <a href="#how">How it works</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </footer>
 
-  <script src="main.js" defer></script>
+  <script src="main.js" type="module"></script>
 </body>
 </html>

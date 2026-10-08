@@ -1,97 +1,140 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Radhey Medicals — Rojaco listing</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Store stock listing — Rojaco</title>
+  <meta name="description" content="Public stock listing published under UP FSDA order FS/SD/A/O/2026-27/3208.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M13 7h6v6h6v6h-6v6h-6v-6H7v-6h6z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../styles.css">
 </head>
-<body>
+<body data-slug="radhey-medicals">
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <div class="container">
-      <h1 class="brand">Rojaco</h1>
-      <p class="tag">Store stock listing</p>
+    <div class="wrap header-inner">
+      <a class="brand" href="../../">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 3h5v5.5H20v5h-5.5V19h-5v-5.5H4v-5h5.5z"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Rojaco</span>
+          <span class="brand-sub">Pharmacy stock listings</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="../../#requirements">What's required</a>
+        <a href="../../#stores">Stores</a>
+        <a href="../../#how">How it works</a>
+      </nav>
+
+      <a class="btn btn-ghost btn-sm" href="../../#stores">All stores</a>
     </div>
   </header>
 
-  <main class="container">
-    <article class="card">
-      <div class="store-header">
-        <div>
-          <h2 style="margin:0">Radhey Medicals</h2>
-          <div class="store-meta">Address: 123 Main Road, Example City, State — License: XYZ123</div>
-        </div>
-        <div class="store-meta">Last updated: 2026-10-08</div>
+  <main id="main" class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../../">Rojaco</a>
+      <span aria-hidden="true">/</span>
+      <a href="../../#stores">Stores</a>
+      <span aria-hidden="true">/</span>
+      <span id="crumb-store" aria-current="page">Loading…</span>
+    </nav>
+
+    <noscript>
+      <div class="state" style="margin-bottom:2rem">
+        <strong>JavaScript is required</strong>
+        This listing is rendered from <code>data/stores.json</code>. Enable JavaScript to view it.
       </div>
+    </noscript>
 
-      <h3 style="margin-top:18px">Stock listing</h3>
-      <p class="print-note">Use your browser Print and choose "Save as PDF" to create a printable version for authorities.</p>
+    <article class="doc" id="doc-ready" hidden>
+      <header class="doc-head">
+        <div>
+          <span id="store-freshness"></span>
+          <h1 id="store-name">—</h1>
+          <p class="doc-address" id="store-address">—</p>
+        </div>
 
-      <table class="stock-table" aria-describedby="stock-desc">
-        <caption id="stock-desc" style="text-align:left;caption-side:top;padding-bottom:8px">Items listed as per government circular</caption>
-        <thead>
-          <tr>
-            <th>Item</th>
-            <th>Brand / Manufacturer</th>
-            <th>Form / Strength</th>
-            <th>Batch</th>
-            <th>Mfg</th>
-            <th>Expiry</th>
-            <th>Quantity</th>
-            <th>MRP</th>
-            <th>Remarks</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Paracetamol</td>
-            <td>ACME Pharma</td>
-            <td>Tablet / 500 mg</td>
-            <td>B321</td>
-            <td>2025-04</td>
-            <td>2027-04</td>
-            <td>120</td>
-            <td>₹60</td>
-            <td>OTC</td>
-          </tr>
-          <tr>
-            <td>Amoxicillin</td>
-            <td>Sunrise Labs</td>
-            <td>Capsule / 250 mg</td>
-            <td>A112</td>
-            <td>2024-12</td>
-            <td>2026-12</td>
-            <td>60</td>
-            <td>₹120</td>
-            <td>Prescription</td>
-          </tr>
-          <tr>
-            <td>Cough Syrup</td>
-            <td>HerbalCo</td>
-            <td>Syrup / 100 ml</td>
-            <td>C778</td>
-            <td>2026-03</td>
-            <td>2028-03</td>
-            <td>30</td>
-            <td>₹90</td>
-            <td>OTC</td>
-          </tr>
-        </tbody>
-      </table>
+        <div class="doc-actions">
+          <p class="doc-updated" id="store-updated"></p>
+          <button class="btn btn-primary" id="print-btn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-6h16v6h-2M8 14h8v7H8z"/></svg>
+            Print / Save as PDF
+          </button>
+        </div>
+      </header>
 
-      <section style="margin-top:18px">
-        <h4 style="margin:0 0 6px 0">Declaration</h4>
-        <p class="muted">I declare that the above stock is accurate to the best of my knowledge. Store owner / authorized person: ____________________</p>
+      <dl class="doc-meta" id="store-meta"></dl>
+
+      <section class="doc-section">
+        <div class="doc-section-head">
+          <div>
+            <h2>Stock listing</h2>
+            <p id="stock-summary">—</p>
+          </div>
+          <span class="muted no-print" id="scroll-hint" hidden style="font-size:.8rem">Scroll sideways for all columns →</span>
+        </div>
+
+        <p class="table-note" id="stock-caption">Items held on the licensed premises, declared as per the Food Safety &amp; Drug Administration circular.</p>
+
+        <div class="table-scroll" id="table-scroll">
+          <table class="stock-table" aria-describedby="stock-caption">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Brand / Manufacturer</th>
+                <th scope="col">Batch</th>
+                <th scope="col">Mfg</th>
+                <th scope="col">Expiry</th>
+                <th scope="col">Status</th>
+                <th scope="col" class="num">Qty</th>
+                <th scope="col" class="num">MRP</th>
+                <th scope="col">Remarks</th>
+              </tr>
+            </thead>
+            <tbody id="stock-body"></tbody>
+            <tfoot>
+              <tr><td colspan="9" id="stock-total">—</td></tr>
+            </tfoot>
+          </table>
+        </div>
       </section>
 
+      <section class="declaration">
+        <h2>Declaration</h2>
+        <p>
+          I declare that the stock particulars listed above are true and accurate to the best of my
+          knowledge as on the date of last update, and that they reflect the goods held on the
+          licensed premises named in this listing.
+        </p>
+        <div class="sign-row">
+          <div>Signature — store owner / authorised person</div>
+          <div>Name: <span id="declared-by">—</span></div>
+          <div>Date</div>
+        </div>
+      </section>
     </article>
 
-    <p style="margin-top:18px"><a href="../">← Back to listings</a></p>
+    <p class="no-print" style="margin-bottom:3rem"><a href="../../#stores">← Back to all stores</a></p>
   </main>
 
   <footer class="site-footer">
-    <div class="container">© Rojaco — sample listing</div>
+    <div class="wrap footer-inner">
+      <div>© 2026 Rojaco · Sample MVP, demo data only</div>
+      <nav aria-label="Footer">
+        <a href="../../#requirements">What's required</a>
+        <a href="../../#stores">Stores</a>
+        <a href="../../#how">How it works</a>
+      </nav>
+    </div>
   </footer>
+
+  <script src="../../store.js" type="module"></script>
 </body>
 </html>

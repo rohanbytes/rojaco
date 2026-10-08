@@ -1,0 +1,14 @@
+{
+  "name": "rojaco",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static site that publishes retail pharmacy stock listings in a printable, compliance-ready format.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

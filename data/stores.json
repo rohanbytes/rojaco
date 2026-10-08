@@ -4,7 +4,12 @@
       "slug": "radhey-medicals",
       "name": "Radhey Medicals",
       "address": "123 Main Road, Example City, State",
+      "premises": "123 Main Road, Example City, State — 226001",
       "license": "XYZ123",
+      "pharmacist": {
+        "name": "Example Pharmacist",
+        "registration": "UPSPC/00000"
+      },
       "last_updated": "2026-10-08",
       "contact": "+91 98765 43210",
       "items": [

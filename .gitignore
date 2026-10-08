@@ -1,0 +1,10 @@
+# Source documents / scans that must never be published or served
+private/
+
+# OS noise
+.DS_Store
+**/.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
